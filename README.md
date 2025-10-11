@@ -22,7 +22,7 @@
 
 ## 🌱 Mes derniers projets
 - [📚 Boulange Hery](https://github.com/Hery0019/BoulangeHery) — Application Java Servlet + PostgreSQL  
-- [🧾 Smart Leave](https://github.com/Hery0019/smart-leave) — Application de gestion des congés des fonctionnaires  
+- [🧾 Smart Leave](https://github.com/Hery0019/SmartLeave) — Application de gestion des congés des fonctionnaires (en cours ...)
 
 ---
 
