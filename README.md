@@ -21,11 +21,11 @@
 ---
 
 ## 🌱 Mes derniers projets
-- [📚 Library Management System](https://github.com/Hery0019/library-app) — Application Java Servlet + PostgreSQL  
+- [📚 Boulange Hery](https://github.com/Hery0019/BoulangeHery) — Application Java Servlet + PostgreSQL  
 - [🧾 Smart Leave](https://github.com/Hery0019/smart-leave) — Application de gestion des congés des fonctionnaires  
 
 ---
 
 ## 📫 Me contacter
 📧 [Email](herakotonarivo@gmail.com)  
-💼 [LinkedIn]([https://www.linkedin.com/in/heryrakoto/](https://www.linkedin.com/in/herakotonarivo/))  
+💼 [LinkedIn]((https://www.linkedin.com/in/herakotonarivo/))  
