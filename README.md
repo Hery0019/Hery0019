@@ -27,5 +27,5 @@
 ---
 
 ## 📫 Me contacter
-📧 Email (herakotonarivo@gmail.com)  
+📧 Email : herakotonarivo@gmail.com  
 💼 [LinkedIn](https://www.linkedin.com/in/herakotonarivo/)
