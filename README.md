@@ -22,10 +22,10 @@
 
 ## 🌱 Mes derniers projets
 - [📚 Boulange Hery](https://github.com/Hery0019/BoulangeHery) — Application Java Servlet + PostgreSQL  
-- [🧾 Smart Leave](https://github.com/Hery0019/SmartLeave) — Application de gestion des congés des fonctionnaires (en cours ...)
-
+- [🧾 Smart Leave](https://github.com/Hery0019/SmartLeave) — Application de gestion des congés des fonctionnaires en cours ... (Spring boot, JWT, Spring Security) 
+- [🧾 Smart Leave Front End](https://github.com/Hery0019/smartleave-front-angular) — Angular
 ---
 
 ## 📫 Me contacter
-📧 [Email](herakotonarivo@gmail.com)  
+📧 Email (herakotonarivo@gmail.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/herakotonarivo/)
