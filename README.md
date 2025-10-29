@@ -1,31 +1,43 @@
-# 👋 Bonjour, je suis Hery Rakotonarivo
+# 👋 Hi, I'm Hery Rakotonarivo
 
-💻 Étudiant diplomé en Licence informatique à IT University – passionné par le développement web et Java  
-🚀 Technologies que j’utilise : Java, Spring Boot, PostgreSQL
-📚 Actuellement en train d’apprendre : Angular & API REST  
-🎯 Objectif : Devenir développeur full stack et travailler en remote ou en présentiel 🌍  
-
----
-
-## 🛠️ Langages et Outils
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+💻 **Software Developer** with a Bachelor’s degree in Computer Science from **IT University** – passionate about **web development**, **Java**, and **Salesforce**.  
+🚀 **Technologies I use:** Java, Spring Boot, PostgreSQL, Salesforce, Apex, SOQL  
+📚 **Currently learning:** Angular & REST APIs  
+🎯 **Goal:** Keep improving my skills and grow as a Full Stack Developer, working either remotely or on-site 🌍  
 
 ---
 
-## 📊 Mes Statistiques GitHub
-![Hery's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hery0019&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Hery0019&layout=compact&theme=radical)
+## 🛠️ Languages and Tools
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="Salesforce"/>
+  <img src="https://img.shields.io/badge/Apex-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="Apex"/>
+  <img src="https://img.shields.io/badge/SOQL-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="SOQL"/>
+</p>
 
 ---
 
-## 🌱 Mes derniers projets
-- [📚 Boulange Hery](https://github.com/Hery0019/BoulangeHery) — Application Java Servlet + PostgreSQL  
-- [🧾 Smart Leave](https://github.com/Hery0019/SmartLeave) — Application de gestion des congés des fonctionnaires : Spring boot, JWT, Spring Security 
-- [🧾 Smart Leave Front End](https://github.com/Hery0019/smartleave-front-angular) — Angular (Projet en cours)
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Hery0019&show_icons=true&theme=radical" alt="Hery's GitHub stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hery0019&layout=compact&theme=radical" alt="Top Langs" height="165"/>
+</p>
+
 ---
 
-## 📫 Me contacter
-📧 Email : herakotonarivo@gmail.com  
-💼 [LinkedIn](https://www.linkedin.com/in/herakotonarivo/)
+## 🌱 Recent Projects
+
+- [📚 **Boulange Hery**](https://github.com/Hery0019/BoulangeHery) — Java Servlet + PostgreSQL application  
+- [🧾 **Smart Leave**](https://github.com/Hery0019/SmartLeave) — Employee leave management system using Spring Boot, JWT, and Spring Security  
+- [🧾 **Smart Leave Front End**](https://github.com/Hery0019/smartleave-front-angular) — Angular (In progress)
+
+---
+
+## 📫 Contact Me
+
+📧 **Email:** [herakotonarivo@gmail.com](mailto:herakotonarivo@gmail.com)  
+💼 **LinkedIn:** [linkedin.com/in/herakotonarivo](https://www.linkedin.com/in/herakotonarivo/)
