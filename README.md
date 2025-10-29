@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Hery Rakotonarivo
 
 💻 **Software Developer** with a Bachelor’s degree in Computer Science from **IT University** – passionate about **web development**, **Java**, and **Salesforce**.  
-🚀 **Technologies I use:** Java, Spring Boot, PostgreSQL, Salesforce, Apex, SOQL  
-📚 **Currently learning:** Angular & REST APIs  
+🚀 **Technologies I use:** Java, Spring Boot, PostgreSQL  
+📚 **Currently learning:** Angular, Salesforce, Apex, SOQL
 🎯 **Goal:** Keep improving my skills and grow as a Full Stack Developer, working either remotely or on-site 🌍  
 
 ---
