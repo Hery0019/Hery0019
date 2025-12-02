@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Hery Rakotonarivo
+# 👋 Hi, I'm Hery
 
 💻 **Software Developer** with a Bachelor’s degree in Computer Science from **IT University** – passionate about **web development**, **Java**, and **Salesforce**.  
 🚀 **Technologies I use:** Java, Spring Boot, PostgreSQL  
