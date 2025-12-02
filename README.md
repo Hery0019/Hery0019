@@ -20,14 +20,7 @@
 
 ---
 
-## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hery0019&show_icons=true&theme=radical" alt="Hery's GitHub stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hery0019&layout=compact&theme=radical" alt="Top Langs" height="165"/>
-</p>
-
----
 
 ## 🌱 Recent Projects
 
