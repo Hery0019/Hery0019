@@ -42,12 +42,6 @@ Passionate about **web development**, **backend engineering**, and **cloud-based
 - 📚 **[Boulange Hery](https://github.com/Hery0019/BoulangeHery)**  
   Java Servlet + PostgreSQL application for bakery management
 
-- 🧾 **[Smart Leave](https://github.com/Hery0019/SmartLeave)**  
-  Employee leave management system using Spring Boot, JWT, and Spring Security
-
-- 🧾 **[Smart Leave Front End](https://github.com/Hery0019/smartleave-front-angular)**  
-  Angular frontend (In progress)
-
 ---
 
 ## 📫 Contact Me
