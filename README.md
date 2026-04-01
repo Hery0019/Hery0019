@@ -5,7 +5,7 @@ Passionate about **web development**, **backend engineering**, and **cloud-based
 
 🧠 I design and build **reliable, scalable, and well-structured databases**, with a strong focus on performance and data integrity.
 
-🚀 **Main stacks:** Java, Spring Boot, Node.js, PostgreSQL, MongoDB  
+🚀 **Main stacks:** Java, Spring Boot, NestJS, PostgreSQL, MongoDB  
 🎯 **Goal:** Continuously improve my skills and grow as a Software Developer, working remotely or on-site 🌍  
 📚 **Currently learning:** Angular, Salesforce, Apex, SOQL
 
@@ -16,7 +16,7 @@ Passionate about **web development**, **backend engineering**, and **cloud-based
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
