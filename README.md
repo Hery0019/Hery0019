@@ -180,17 +180,31 @@ hery@dev:~$ █
       </p>
     </td>
     <td width="50%" valign="top">
-      <div align="center">
-        <br/><br/><br/>
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=320&lines=%3E+more+projects+loading...;%3E+git+push+origin+main;%3E+stay+tuned+%F0%9F%91%80" alt="More coming"/>
-        <br/>
-        <a href="https://github.com/Hery0019?tab=repositories">
-          <img src="https://img.shields.io/badge/ls_~%2Frepos_--all-0d1117?style=flat-square&logo=github&logoColor=22d3ee"/>
+      <h3>🪙 <a href="https://github.com/Hery0019/MobileCrypto">MobileCrypto</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Expo-0d1117?style=flat-square&logo=expo&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=22d3ee"/>
+      </p>
+      <p><b>Crypto wallet mobile app</b>: auth, portfolio, transactions and charts. Team project.</p>
+      <p>
+        <a href="https://github.com/Hery0019/MobileCrypto">
+          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
         </a>
-      </div>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/MobileCrypto?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
+      </p>
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=320&lines=%3E+more+projects+loading...;%3E+git+push+origin+main;%3E+stay+tuned+%F0%9F%91%80" alt="More coming"/>
+  <br/>
+  <a href="https://github.com/Hery0019?tab=repositories">
+    <img src="https://img.shields.io/badge/ls_~%2Frepos_--all-0d1117?style=flat-square&logo=github&logoColor=22d3ee"/>
+  </a>
+</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
