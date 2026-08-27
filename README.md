@@ -252,50 +252,6 @@ hery@dev:~$ █
   </picture>
 </div>
 
-<!-- ═══════════════════════════════ TROPHIES ═══════════════════════════════ -->
-## 🏆 `cat achievements.log`
-
-<div align="center">
-  <img src="https://github-trophies.vercel.app/?username=Hery0019&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophies"/>
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<!-- ═══════════════════════════════ FUN FACTS ═══════════════════════════════ -->
-## 🎮 `sudo cat /etc/hery/fun_facts.conf`
-
-<table>
-  <tr>
-    <td width="33%" align="center" valign="top">
-      <h3>🐧 Linux & Hardware</h3>
-      <p>The terminal is my natural habitat. I'd rather <code>grep</code> than click, and I enjoy tinkering with hardware and tuning my setup until it's <i>just right</i>.</p>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <h3>🎮 Gaming</h3>
-      <p>Gamer when the IDE is closed. Debugging a boss fight strategy and debugging a stack trace use surprisingly similar skills.</p>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <h3>🎵 Music & Sport</h3>
-      <p>Music in the headphones while coding, sport to reboot the brain. Best ideas usually show up mid-workout, away from the keyboard.</p>
-    </td>
-  </tr>
-</table>
-
-<details>
-  <summary>🔓 <b>Click to decrypt more facts...</b></summary>
-  <br/>
-
-```text
-[OK]  Favorite tools .......... a good keyboard, a dark theme, a fast terminal
-[OK]  Superpower .............. explaining a database schema with a whiteboard
-[OK]  Favorite error .......... the one that shows up in the logs *before* prod
-[OK]  Nemesis ................. "it works on my machine"
-[OK]  Coffee level ............ ██████████ 100%
-[OK]  Bugs fixed today ........ counting...
-```
-
-</details>
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <!-- ═══════════════════════════════ QUOTE ═══════════════════════════════ -->
