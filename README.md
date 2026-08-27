@@ -10,7 +10,6 @@
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hery0019&color=00ff41&style=flat-square&label=PROFILE+VIEWS&abbreviated=true" alt="Profile views"/>
   <img src="https://img.shields.io/badge/STATUS-OPEN%20FOR%20FREELANCE-00ff41?style=flat-square&labelColor=0d1117" alt="Status"/>
   <img src="https://img.shields.io/badge/FOCUS-BACKEND%20%26%20DATABASES-00ff41?style=flat-square&labelColor=0d1117" alt="Focus"/>
   <img src="https://img.shields.io/badge/LOCATION-MADAGASCAR%20%7C%20REMOTE-00ff41?style=flat-square&labelColor=0d1117" alt="Location"/>
@@ -181,7 +180,39 @@ hery@dev:~$ █
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🥖 <a href="https://github.com/Hery0019/BoulangeHery">Boulange Hery</a></h3>
+      <h3>🗜️ <a href="https://github.com/Hery0019/huffman">huffman</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00ff41"/>
+        <img src="https://img.shields.io/badge/Servlet_%2F_JSP-0d1117?style=flat-square&logo=apachetomcat&logoColor=00ff41"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=00ff41"/>
+      </p>
+      <p>Educational web app to <b>understand Huffman coding</b>: build the frequency table, the binary tree and the compressed output step by step — built with <b>Java Servlet / JSP + PostgreSQL</b>.</p>
+      <p>
+        <a href="https://github.com/Hery0019/huffman">
+          <img src="https://img.shields.io/badge/📂_View_repository-00ff41?style=flat-square&labelColor=0d1117&color=00ff41"/>
+        </a>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/huffman?style=flat-square&labelColor=0d1117&color=00ff41&label=last%20commit"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>♟️ <a href="https://github.com/Hery0019/chess">chess</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00ff41"/>
+        <img src="https://img.shields.io/badge/Swing-0d1117?style=flat-square&logo=coffeescript&logoColor=00ff41"/>
+        <img src="https://img.shields.io/badge/Desktop_App-0d1117?style=flat-square&logo=gnome&logoColor=00ff41"/>
+      </p>
+      <p>A <b>chess game in Java Swing</b>: board rendering, piece movement rules, turn management and game logic — pure Java, no framework, a great playground for OOP design.</p>
+      <p>
+        <a href="https://github.com/Hery0019/chess">
+          <img src="https://img.shields.io/badge/📂_View_repository-00ff41?style=flat-square&labelColor=0d1117&color=00ff41"/>
+        </a>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/chess?style=flat-square&labelColor=0d1117&color=00ff41&label=last%20commit"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🥖 <a href="https://github.com/Hery0019/BoulangeHery">BoulangeHery</a></h3>
       <p>
         <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00ff41"/>
         <img src="https://img.shields.io/badge/Servlet-0d1117?style=flat-square&logo=apachetomcat&logoColor=00ff41"/>
@@ -197,8 +228,12 @@ hery@dev:~$ █
     </td>
     <td width="50%" valign="top">
       <div align="center">
-        <br/><br/>
+        <br/><br/><br/>
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=320&lines=%3E+more+projects+loading...;%3E+git+push+origin+main;%3E+stay+tuned+%F0%9F%91%80" alt="More coming"/>
+        <br/>
+        <a href="https://github.com/Hery0019?tab=repositories">
+          <img src="https://img.shields.io/badge/ls_~%2Frepos_--all-0d1117?style=flat-square&logo=github&logoColor=00ff41"/>
+        </a>
       </div>
     </td>
   </tr>
@@ -206,33 +241,9 @@ hery@dev:~$ █
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ═══════════════════════════════ STATS ═══════════════════════════════ -->
-## 📊 `htop --github`
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hery0019&theme=merko" width="100%" alt="Profile details"/>
-</div>
-
-<div align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hery0019&theme=merko" alt="GitHub Stats"/>
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Hery0019&theme=merko&utcOffset=3" alt="Productive time"/>
-</div>
-
-<div align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hery0019&theme=merko" alt="Top languages by repo"/>
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Hery0019&theme=merko" alt="Top languages by commit"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Hery0019&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=c9d1d9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8b949e" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <h4>🟩 <code>git log --graph --all --oneline</code></h4>
-  <img src="https://ghchart.rshah.org/00ff41/Hery0019" width="100%" alt="Contribution heatmap"/>
-</div>
-
 <!-- ═══════════════════════════════ SNAKE ═══════════════════════════════ -->
+## 🐍 `./snake --eat contributions`
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg"/>
