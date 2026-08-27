@@ -61,55 +61,17 @@ hery@dev:~$ █
 <!-- ═══════════════════════════════ TECH STACK ═══════════════════════════════ -->
 ## 🛠️ `ls -la ~/skills`
 
-### ⚙️ Backend
-<p>
-  <img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-0d1117?style=for-the-badge&logo=springboot&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/Spring_Security-0d1117?style=for-the-badge&logo=springsecurity&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/NestJS-0d1117?style=for-the-badge&logo=nestjs&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/REST_API-0d1117?style=for-the-badge&logo=fastapi&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/JWT-0d1117?style=for-the-badge&logo=jsonwebtokens&logoColor=22d3ee"/>
-</p>
-
-### 🗄️ Databases
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=mysql&logoColor=22d3ee"/>
-</p>
-
-### 🎨 Frontend & CRM
-<p>
-  <img src="https://img.shields.io/badge/Angular-0d1117?style=for-the-badge&logo=angular&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/Salesforce-0d1117?style=for-the-badge&logo=salesforce&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/Apex-0d1117?style=for-the-badge&logo=salesforce&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/SOQL-0d1117?style=for-the-badge&logo=salesforce&logoColor=22d3ee"/>
-</p>
-
-### 🧰 Tools & Environment
-<p>
-  <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-0d1117?style=for-the-badge&logo=intellijidea&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/Postman-0d1117?style=for-the-badge&logo=postman&logoColor=22d3ee"/>
-</p>
-
-### 🤖 AI-Augmented Workflow
-<p>
-  <img src="https://img.shields.io/badge/Claude-0d1117?style=for-the-badge&logo=anthropic&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/ChatGPT-0d1117?style=for-the-badge&logo=openai&logoColor=22d3ee"/>
-  <img src="https://img.shields.io/badge/GitHub_Copilot-0d1117?style=for-the-badge&logo=githubcopilot&logoColor=22d3ee"/>
-</p>
-
-> AI as a pair programmer, not an autopilot.
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,nestjs,nodejs,ts,postgres,mongodb,mysql,angular,html,css,linux,bash,git,github,docker,idea,vscode,postman&perline=10" width="88%" alt="Tech stack"/>
+  <br/><br/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg" height="52" alt="Salesforce"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/anthropic/D97757" height="46" alt="Claude"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/githubcopilot/ffffff" height="46" alt="GitHub Copilot"/>
+  <br/><br/>
+  <sub>📚 Currently learning <b>Salesforce · Apex · SOQL</b> &nbsp;·&nbsp; 🤖 AI as a pair programmer, not an autopilot</sub>
+</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
