@@ -5,7 +5,7 @@
 
 <div align="center">
   <a href="https://github.com/Hery0019">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&width=700&lines=%3E+Hi%2C+I'm+Hery+%F0%9F%91%8B;%3E+Software+Developer+from+Madagascar+%F0%9F%87%B2%F0%9F%87%AC;%3E+Java+%7C+Spring+Boot+%7C+NestJS+%7C+PostgreSQL;%3E+Backend+%26+Database+Engineer;%3E+Open+for+freelance+missions+%F0%9F%9A%80;%3E+sudo+make+me+a+coffee+%E2%98%95" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&width=700&lines=%3E+Hi%2C+I'm+Hery+%F0%9F%91%8B;%3E+Software+Developer+from+Madagascar+%F0%9F%87%B2%F0%9F%87%AC;%3E+Java+%7C+Spring+Boot+%7C+NestJS+%7C+PostgreSQL;%3E+Backend+%26+Database+Engineer;%3E+Open+for+freelance+missions+%F0%9F%9A%80;%3E+sudo+hydrate+--now+%F0%9F%92%A7" alt="Typing SVG"/>
   </a>
 </div>
 
@@ -54,7 +54,7 @@ hery@dev:~$ █
           `/+++ooooooooooooo/`            Frontend  : Angular
          ./ooosssso++osssssso+`           CRM       : Salesforce · Apex · SOQL
         .oossssso-````/ossssss+`          Tools     : Git · GitHub · Docker · AI
-       -osssssso.      :ssssssso.         Packages  : coffee ☕ (latest) · curiosity
+       -osssssso.      :ssssssso.         Packages  : water 💧 (latest) · curiosity
       :osssssss/        osssso+++.        Status    : 🟢 open for freelance missions
      /ossssssss/        +ssssooo/-        Contact   : herakotonarivo@gmail.com
    `/ossssso+/:-        -:/+osssso+-      ─────────────────────────────────────
@@ -198,7 +198,7 @@ hery@dev:~$ █
       <h3>♟️ <a href="https://github.com/Hery0019/chess">chess</a></h3>
       <p>
         <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00ff41"/>
-        <img src="https://img.shields.io/badge/Swing-0d1117?style=flat-square&logo=coffeescript&logoColor=00ff41"/>
+        <img src="https://img.shields.io/badge/Swing-0d1117?style=flat-square&logo=eclipseide&logoColor=00ff41"/>
         <img src="https://img.shields.io/badge/Desktop_App-0d1117?style=flat-square&logo=gnome&logoColor=00ff41"/>
       </p>
       <p>A <b>chess game in Java Swing</b>: board rendering, piece movement rules, turn management and game logic — pure Java, no framework, a great playground for OOP design.</p>
