@@ -258,7 +258,7 @@ hery@dev:~$ █
 ## 💬 `echo $MOTTO`
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=4000&pause=1500&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=%22Anyone+can+produce+code+now.;The+job+is+knowing+which+code+deserves+to+exist.%22" alt="Motto"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=4000&pause=0&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=%22Anyone+can+produce+code+now.;The+job+is+knowing+which+code+deserves+to+exist.%22;%E2%80%8B" alt="Motto"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
