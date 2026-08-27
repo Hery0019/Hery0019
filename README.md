@@ -1,18 +1,18 @@
 <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:003b00,100:00ff41&height=220&section=header&text=Hery0019&fontSize=72&fontColor=00ff41&animation=twinkling&fontAlignY=32&desc=%3E_%20Software%20Developer%20%7C%20Backend%20%26%20Database%20Engineer&descSize=20&descAlignY=55&descColor=c9d1d9" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:083344,100:22d3ee&height=220&section=header&text=Hery0019&fontSize=72&fontColor=22d3ee&animation=twinkling&fontAlignY=32&desc=%3E_%20Software%20Developer%20%7C%20Backend%20%26%20Database%20Engineer&descSize=20&descAlignY=55&descColor=c9d1d9" width="100%"/>
 </div>
 
 <div align="center">
   <a href="https://github.com/Hery0019">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&width=700&lines=%3E+Hi%2C+I'm+Hery+%F0%9F%91%8B;%3E+Software+Developer+from+Madagascar+%F0%9F%87%B2%F0%9F%87%AC;%3E+Java+%7C+Spring+Boot+%7C+NestJS+%7C+PostgreSQL;%3E+Backend+%26+Database+Engineer;%3E+Open+for+freelance+missions+%F0%9F%9A%80;%3E+sudo+hydrate+--now+%F0%9F%92%A7" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=%3E+Hi%2C+I'm+Hery+%F0%9F%91%8B;%3E+Software+Developer+from+Madagascar+%F0%9F%87%B2%F0%9F%87%AC;%3E+Java+%7C+Spring+Boot+%7C+NestJS+%7C+PostgreSQL;%3E+Backend+%26+Database+Engineer;%3E+Open+for+freelance+missions+%F0%9F%9A%80;%3E+sudo+hydrate+--now+%F0%9F%92%A7" alt="Typing SVG"/>
   </a>
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPEN%20FOR%20FREELANCE-00ff41?style=flat-square&labelColor=0d1117" alt="Status"/>
-  <img src="https://img.shields.io/badge/FOCUS-BACKEND%20%26%20DATABASES-00ff41?style=flat-square&labelColor=0d1117" alt="Focus"/>
-  <img src="https://img.shields.io/badge/LOCATION-MADAGASCAR%20%7C%20REMOTE-00ff41?style=flat-square&labelColor=0d1117" alt="Location"/>
+  <img src="https://img.shields.io/badge/STATUS-OPEN%20FOR%20FREELANCE-0e7490?style=flat-square&labelColor=0d1117" alt="Status"/>
+  <img src="https://img.shields.io/badge/FOCUS-BACKEND%20%26%20DATABASES-0e7490?style=flat-square&labelColor=0d1117" alt="Focus"/>
+  <img src="https://img.shields.io/badge/LOCATION-MADAGASCAR%20%7C%20REMOTE-0e7490?style=flat-square&labelColor=0d1117" alt="Location"/>
 </div>
 
 <br/>
@@ -70,50 +70,50 @@ hery@dev:~$ █
 
 ### ⚙️ Backend
 <p>
-  <img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-0d1117?style=for-the-badge&logo=springboot&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/Spring_Security-0d1117?style=for-the-badge&logo=springsecurity&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/NestJS-0d1117?style=for-the-badge&logo=nestjs&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/REST_API-0d1117?style=for-the-badge&logo=fastapi&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/JWT-0d1117?style=for-the-badge&logo=jsonwebtokens&logoColor=00ff41"/>
+  <img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-0d1117?style=for-the-badge&logo=springboot&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/Spring_Security-0d1117?style=for-the-badge&logo=springsecurity&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/NestJS-0d1117?style=for-the-badge&logo=nestjs&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/REST_API-0d1117?style=for-the-badge&logo=fastapi&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/JWT-0d1117?style=for-the-badge&logo=jsonwebtokens&logoColor=22d3ee"/>
 </p>
 
 ### 🗄️ Databases
 <p>
-  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=mysql&logoColor=00ff41"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=mysql&logoColor=22d3ee"/>
 </p>
 
 ### 🎨 Frontend & CRM
 <p>
-  <img src="https://img.shields.io/badge/Angular-0d1117?style=for-the-badge&logo=angular&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/Salesforce-0d1117?style=for-the-badge&logo=salesforce&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/Apex-0d1117?style=for-the-badge&logo=salesforce&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/SOQL-0d1117?style=for-the-badge&logo=salesforce&logoColor=00ff41"/>
+  <img src="https://img.shields.io/badge/Angular-0d1117?style=for-the-badge&logo=angular&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/Salesforce-0d1117?style=for-the-badge&logo=salesforce&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/Apex-0d1117?style=for-the-badge&logo=salesforce&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/SOQL-0d1117?style=for-the-badge&logo=salesforce&logoColor=22d3ee"/>
 </p>
 
 ### 🧰 Tools & Environment
 <p>
-  <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-0d1117?style=for-the-badge&logo=intellijidea&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/Postman-0d1117?style=for-the-badge&logo=postman&logoColor=00ff41"/>
+  <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-0d1117?style=for-the-badge&logo=intellijidea&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/Postman-0d1117?style=for-the-badge&logo=postman&logoColor=22d3ee"/>
 </p>
 
 ### 🤖 AI-Augmented Workflow
 <p>
-  <img src="https://img.shields.io/badge/Claude-0d1117?style=for-the-badge&logo=anthropic&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/ChatGPT-0d1117?style=for-the-badge&logo=openai&logoColor=00ff41"/>
-  <img src="https://img.shields.io/badge/GitHub_Copilot-0d1117?style=for-the-badge&logo=githubcopilot&logoColor=00ff41"/>
+  <img src="https://img.shields.io/badge/Claude-0d1117?style=for-the-badge&logo=anthropic&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/ChatGPT-0d1117?style=for-the-badge&logo=openai&logoColor=22d3ee"/>
+  <img src="https://img.shields.io/badge/GitHub_Copilot-0d1117?style=for-the-badge&logo=githubcopilot&logoColor=22d3ee"/>
 </p>
 
 > I use AI as a pair programmer, not an autopilot — it speeds things up, but *deciding what deserves to exist* stays a human job.
@@ -168,7 +168,7 @@ hery@dev:~$ █
 
 <div align="center">
   <a href="mailto:herakotonarivo@gmail.com">
-    <img src="https://img.shields.io/badge/📧_Let's_work_together-00ff41?style=for-the-badge&labelColor=0d1117&color=00ff41" alt="Contact"/>
+    <img src="https://img.shields.io/badge/📧_Let's_work_together-0e7490?style=for-the-badge&labelColor=0d1117&color=0e7490" alt="Contact"/>
   </a>
 </div>
 
@@ -182,31 +182,31 @@ hery@dev:~$ █
     <td width="50%" valign="top">
       <h3>🗜️ <a href="https://github.com/Hery0019/huffman">huffman</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00ff41"/>
-        <img src="https://img.shields.io/badge/Servlet_%2F_JSP-0d1117?style=flat-square&logo=apachetomcat&logoColor=00ff41"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=00ff41"/>
+        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Servlet_%2F_JSP-0d1117?style=flat-square&logo=apachetomcat&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=22d3ee"/>
       </p>
       <p>Educational web app to <b>understand Huffman coding</b>: build the frequency table, the binary tree and the compressed output step by step — built with <b>Java Servlet / JSP + PostgreSQL</b>.</p>
       <p>
         <a href="https://github.com/Hery0019/huffman">
-          <img src="https://img.shields.io/badge/📂_View_repository-00ff41?style=flat-square&labelColor=0d1117&color=00ff41"/>
+          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
         </a>
-        <img src="https://img.shields.io/github/last-commit/Hery0019/huffman?style=flat-square&labelColor=0d1117&color=00ff41&label=last%20commit"/>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/huffman?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>♟️ <a href="https://github.com/Hery0019/chess">chess</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00ff41"/>
-        <img src="https://img.shields.io/badge/Swing-0d1117?style=flat-square&logo=eclipseide&logoColor=00ff41"/>
-        <img src="https://img.shields.io/badge/Desktop_App-0d1117?style=flat-square&logo=gnome&logoColor=00ff41"/>
+        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Swing-0d1117?style=flat-square&logo=eclipseide&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Desktop_App-0d1117?style=flat-square&logo=gnome&logoColor=22d3ee"/>
       </p>
       <p>A <b>chess game in Java Swing</b>: board rendering, piece movement rules, turn management and game logic — pure Java, no framework, a great playground for OOP design.</p>
       <p>
         <a href="https://github.com/Hery0019/chess">
-          <img src="https://img.shields.io/badge/📂_View_repository-00ff41?style=flat-square&labelColor=0d1117&color=00ff41"/>
+          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
         </a>
-        <img src="https://img.shields.io/github/last-commit/Hery0019/chess?style=flat-square&labelColor=0d1117&color=00ff41&label=last%20commit"/>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/chess?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
       </p>
     </td>
   </tr>
@@ -214,25 +214,25 @@ hery@dev:~$ █
     <td width="50%" valign="top">
       <h3>🥖 <a href="https://github.com/Hery0019/BoulangeHery">BoulangeHery</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00ff41"/>
-        <img src="https://img.shields.io/badge/Servlet-0d1117?style=flat-square&logo=apachetomcat&logoColor=00ff41"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=00ff41"/>
+        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Servlet-0d1117?style=flat-square&logo=apachetomcat&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=22d3ee"/>
       </p>
       <p>Bakery management application built with <b>Java Servlets + PostgreSQL</b>: products, stock and sales tracking, with a clean relational schema behind it.</p>
       <p>
         <a href="https://github.com/Hery0019/BoulangeHery">
-          <img src="https://img.shields.io/badge/📂_View_repository-00ff41?style=flat-square&labelColor=0d1117&color=00ff41"/>
+          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
         </a>
-        <img src="https://img.shields.io/github/last-commit/Hery0019/BoulangeHery?style=flat-square&labelColor=0d1117&color=00ff41&label=last%20commit"/>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/BoulangeHery?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
       </p>
     </td>
     <td width="50%" valign="top">
       <div align="center">
         <br/><br/><br/>
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=320&lines=%3E+more+projects+loading...;%3E+git+push+origin+main;%3E+stay+tuned+%F0%9F%91%80" alt="More coming"/>
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=320&lines=%3E+more+projects+loading...;%3E+git+push+origin+main;%3E+stay+tuned+%F0%9F%91%80" alt="More coming"/>
         <br/>
         <a href="https://github.com/Hery0019?tab=repositories">
-          <img src="https://img.shields.io/badge/ls_~%2Frepos_--all-0d1117?style=flat-square&logo=github&logoColor=00ff41"/>
+          <img src="https://img.shields.io/badge/ls_~%2Frepos_--all-0d1117?style=flat-square&logo=github&logoColor=22d3ee"/>
         </a>
       </div>
     </td>
@@ -258,7 +258,7 @@ hery@dev:~$ █
 ## 💬 `echo $MOTTO`
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=4000&pause=1500&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=%22Anyone+can+produce+code+now.;The+job+is+knowing+which+code+deserves+to+exist.%22" alt="Motto"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=4000&pause=1500&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=%22Anyone+can+produce+code+now.;The+job+is+knowing+which+code+deserves+to+exist.%22" alt="Motto"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
@@ -268,13 +268,13 @@ hery@dev:~$ █
 
 <div align="center">
   <a href="mailto:herakotonarivo@gmail.com">
-    <img src="https://img.shields.io/badge/Email-herakotonarivo%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff41" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-herakotonarivo%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/>
   </a>
   <a href="https://www.linkedin.com/in/herakotonarivo/">
-    <img src="https://img.shields.io/badge/LinkedIn-herakotonarivo-0d1117?style=for-the-badge&logo=linkedin&logoColor=00ff41" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-herakotonarivo-0d1117?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/Hery0019">
-    <img src="https://img.shields.io/badge/GitHub-Hery0019-0d1117?style=for-the-badge&logo=github&logoColor=00ff41" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-Hery0019-0d1117?style=for-the-badge&logo=github&logoColor=22d3ee" alt="GitHub"/>
   </a>
 </div>
 
@@ -289,5 +289,5 @@ PING hery (herakotonarivo@gmail.com): 64 bytes of data.
 
 <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,60:003b00,100:0d1117&height=140&section=footer&text=Thanks%20for%20visiting%20%F0%9F%91%BE&fontSize=28&fontColor=00ff41&fontAlignY=70&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,60:083344,100:0d1117&height=140&section=footer&text=Thanks%20for%20visiting%20%F0%9F%91%BE&fontSize=28&fontColor=22d3ee&fontAlignY=70&animation=fadeIn" width="100%"/>
 </div>
