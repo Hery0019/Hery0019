@@ -5,7 +5,7 @@
 
 <div align="center">
   <a href="https://github.com/Hery0019">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=%3E+Hi%2C+I'm+Hery+%F0%9F%91%8B;%3E+Software+Developer+from+Madagascar+%F0%9F%87%B2%F0%9F%87%AC;%3E+Java+%7C+Spring+Boot+%7C+NestJS+%7C+PostgreSQL;%3E+Backend+%26+Database+Engineer;%3E+Open+for+freelance+missions+%F0%9F%9A%80;%3E+sudo+hydrate+--now+%F0%9F%92%A7" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=%3E+Hi%2C+I'm+Hery+%F0%9F%91%8B;%3E+Backend+%26+Database+Engineer+%F0%9F%87%B2%F0%9F%87%AC;%3E+Java+%7C+Spring+Boot+%7C+NestJS+%7C+PostgreSQL;%3E+sudo+hydrate+--now+%F0%9F%92%A7" alt="Typing SVG"/>
   </a>
 </div>
 
@@ -23,15 +23,8 @@ hery@dev:~$ whoami
 Hery — Software Developer | Backend & Database Engineer
 
 hery@dev:~$ cat about.txt
-🎓 Bachelor's degree in Computer Science — IT University Madagascar
-💻 Passionate about web development, backend engineering & cloud-based solutions
-🧠 I design reliable, well-structured databases with a focus on performance & data integrity
-🚀 Main stacks  : Java · Spring Boot · NestJS · PostgreSQL · MongoDB
-📚 Learning now : Angular · Salesforce · Apex · SOQL
-🎯 Goal         : keep leveling up as a Software Developer, remotely or on-site 🌍
-
-hery@dev:~$ echo $MOTTO
-"Anyone can produce code now. The job is knowing which code deserves to exist."
+🎓 CS graduate — IT University Madagascar
+🧠 I build backends and design databases that hold up in production.
 
 hery@dev:~$ █
 ```
@@ -46,17 +39,17 @@ hery@dev:~$ █
                   .o+`                    ─────────────────────────────────────
                  `ooo/                    OS        : Linux 🐧 (terminal is home)
                 `+oooo:                   Role      : Software Developer
-               `+oooooo:                  Uptime    : coding since university
-               -+oooooo+:                 Shell     : bash / zsh
-             `/:-:++oooo+:                Editor    : IntelliJ IDEA · VS Code
-            `/++++/+++++++:               Backend   : Java · Spring Boot · NestJS
-           `/++++++++++++++:              Database  : PostgreSQL · MongoDB
-          `/+++ooooooooooooo/`            Frontend  : Angular
-         ./ooosssso++osssssso+`           CRM       : Salesforce · Apex · SOQL
-        .oossssso-````/ossssss+`          Tools     : Git · GitHub · Docker · AI
-       -osssssso.      :ssssssso.         Packages  : water 💧 (latest) · curiosity
-      :osssssss/        osssso+++.        Status    : 🟢 open for freelance missions
-     /ossssssss/        +ssssooo/-        Contact   : herakotonarivo@gmail.com
+               `+oooooo:                  Shell     : bash / zsh
+               -+oooooo+:                 Editor    : IntelliJ IDEA · VS Code
+             `/:-:++oooo+:                Uptime    : coding since university
+            `/++++/+++++++:               Packages  : water 💧 (latest) · curiosity
+           `/++++++++++++++:
+          `/+++ooooooooooooo/`            Status    : 🟢 open for freelance missions
+         ./ooosssso++osssssso+`           Contact   : herakotonarivo@gmail.com
+        .oossssso-````/ossssss+`
+       -osssssso.      :ssssssso.
+      :osssssss/        osssso+++.
+     /ossssssss/        +ssssooo/-
    `/ossssso+/:-        -:/+osssso+-      ─────────────────────────────────────
   `+sso+:-`                 `.-/+oso:     ████ ████ ████ ████ ████ ████ ████ ████
  `++:.                           `-/+/
@@ -116,7 +109,7 @@ hery@dev:~$ █
   <img src="https://img.shields.io/badge/GitHub_Copilot-0d1117?style=for-the-badge&logo=githubcopilot&logoColor=22d3ee"/>
 </p>
 
-> I use AI as a pair programmer, not an autopilot — it speeds things up, but *deciding what deserves to exist* stays a human job.
+> AI as a pair programmer, not an autopilot.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -125,11 +118,11 @@ hery@dev:~$ █
 
 | | |
 |---|---|
-| 🏗️ **Backend engineering** | Robust, maintainable applications with **Java / Spring Boot** and **NestJS** |
-| 🗄️ **Database design** | Reliable, efficient schemas on **PostgreSQL** & **MongoDB** — performance and data integrity first |
-| 🔐 **Security** | Authentication & authorization with **JWT** and **Spring Security** |
-| 🔄 **APIs & integration** | Clean **REST APIs**, documented and integrated with frontend apps |
-| ☁️ **Deployment** | Shipping and maintaining applications in **production** environments |
+| 🏗️ **Backend** | **Java / Spring Boot** · **NestJS** |
+| 🗄️ **Databases** | **PostgreSQL** · **MongoDB** — schema design & performance |
+| 🔐 **Security** | **JWT** · **Spring Security** |
+| 🔄 **APIs** | Clean **REST APIs**, documented and integrated |
+| ☁️ **Deployment** | Shipping and maintaining in **production** |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -148,19 +141,17 @@ hery@dev:~$ █
     <td width="50%" valign="top">
       <h3>⚙️ Backend APIs & Databases</h3>
       <ul>
-        <li>REST API design & development (Spring Boot / NestJS)</li>
-        <li>PostgreSQL / MongoDB schema design & optimization</li>
-        <li>Authentication, security, role management</li>
-        <li>Refactoring & performance tuning of existing backends</li>
+        <li>REST APIs (Spring Boot / NestJS)</li>
+        <li>PostgreSQL / MongoDB design & tuning</li>
+        <li>Auth, security, roles</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3>🌐 Full-stack Web Applications</h3>
       <ul>
-        <li>End-to-end web apps: backend + Angular frontend</li>
-        <li>Business / management applications (CRUD, dashboards, reporting)</li>
-        <li>Production deployment & maintenance</li>
-        <li>Clear documentation and hand-over</li>
+        <li>Backend + Angular frontend</li>
+        <li>Management apps, dashboards, reporting</li>
+        <li>Deployment & maintenance</li>
       </ul>
     </td>
   </tr>
@@ -186,7 +177,7 @@ hery@dev:~$ █
         <img src="https://img.shields.io/badge/Servlet_%2F_JSP-0d1117?style=flat-square&logo=apachetomcat&logoColor=22d3ee"/>
         <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=22d3ee"/>
       </p>
-      <p>Educational web app to <b>understand Huffman coding</b>: build the frequency table, the binary tree and the compressed output step by step — built with <b>Java Servlet / JSP + PostgreSQL</b>.</p>
+      <p>Learn <b>Huffman coding</b> step by step: frequency table, binary tree, compressed output.</p>
       <p>
         <a href="https://github.com/Hery0019/huffman">
           <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
@@ -201,7 +192,7 @@ hery@dev:~$ █
         <img src="https://img.shields.io/badge/Swing-0d1117?style=flat-square&logo=eclipseide&logoColor=22d3ee"/>
         <img src="https://img.shields.io/badge/Desktop_App-0d1117?style=flat-square&logo=gnome&logoColor=22d3ee"/>
       </p>
-      <p>A <b>chess game in Java Swing</b>: board rendering, piece movement rules, turn management and game logic — pure Java, no framework, a great playground for OOP design.</p>
+      <p>A full <b>chess game in Java Swing</b>: move rules, turns, game logic. Pure Java, no framework.</p>
       <p>
         <a href="https://github.com/Hery0019/chess">
           <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
@@ -218,7 +209,7 @@ hery@dev:~$ █
         <img src="https://img.shields.io/badge/Servlet-0d1117?style=flat-square&logo=apachetomcat&logoColor=22d3ee"/>
         <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=22d3ee"/>
       </p>
-      <p>Bakery management application built with <b>Java Servlets + PostgreSQL</b>: products, stock and sales tracking, with a clean relational schema behind it.</p>
+      <p><b>Bakery management</b>: products, stock and sales, on a clean relational schema.</p>
       <p>
         <a href="https://github.com/Hery0019/BoulangeHery">
           <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
