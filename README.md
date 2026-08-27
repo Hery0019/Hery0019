@@ -3,7 +3,7 @@
 💻 **Software Developer** with a Bachelor’s degree in Computer Science from **IT University Madagascar**.  
 Passionate about **web development**, **backend engineering**, and **cloud-based solutions**.
 
-🧠 I design and build **reliable, scalable, and well-structured databases**, with a strong focus on performance and data integrity.
+🧠 I design and build **reliable, and well-structured databases**, with a strong focus on performance and data integrity.
 
 🚀 **Main stacks:** Java, Spring Boot, NestJS, PostgreSQL, MongoDB  
 🎯 **Goal:** Continuously improve my skills and grow as a Software Developer, working remotely or on-site 🌍  
