@@ -99,6 +99,39 @@ public class Welcome {
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏗️ <a href="https://github.com/Hery0019/prepwork">prepwork</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Spring_Boot-0d1117?style=flat-square&logo=springboot&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=22d3ee"/>
+      </p>
+      <p><b>Project scaffolding CLI</b>: a ready-to-code skeleton, tooled architecture rules and the specs for the AI agent that codes inside it. Spring Boot &amp; React packs.</p>
+      <p>
+        <a href="https://github.com/Hery0019/prepwork">
+          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
+        </a>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/prepwork?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🗄️ <a href="https://github.com/Hery0019/Ledger">Ledger</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/C%2B%2B20-0d1117?style=flat-square&logo=cplusplus&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/CMake-0d1117?style=flat-square&logo=cmake&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Embedded_SQL-0d1117?style=flat-square&logoColor=22d3ee"/>
+      </p>
+      <p>An <b>embedded SQL engine in C++20</b> with plain-text storage. A learning project, meant for personal use afterwards.</p>
+      <p>
+        <a href="https://github.com/Hery0019/Ledger">
+          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
+        </a>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/Ledger?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
+      </p>
+    </td>
+  </tr>
 </table>
 
 <div align="center">
