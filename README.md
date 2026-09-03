@@ -3,6 +3,15 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:083344,100:22d3ee&height=220&section=header&text=Hery0019&fontSize=72&fontColor=22d3ee&animation=twinkling&fontAlignY=32&desc=%3E_%20Software%20Developer%20%7C%20Backend%20%26%20Database%20Engineer&descSize=20&descAlignY=55&descColor=c9d1d9" width="100%"/>
 </div>
 
+<!-- ═══════════════════════════════ PHOTO ═══════════════════════════════ -->
+<div align="center">
+  <a href="https://github.com/Hery0019">
+    <img src="https://images.weserv.nl/?url=github.com/Hery0019.png&w=400&h=400&fit=cover&mask=circle" width="170" alt="Hery — photo de profil"/>
+  </a>
+  <br/>
+  <sub><b>Hery</b> &nbsp;·&nbsp; 📍 Madagascar &nbsp;·&nbsp; 💻 Backend &amp; Database Engineer</sub>
+</div>
+
 <div align="center">
   <a href="https://github.com/Hery0019">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=%3E+Hi%2C+I'm+Hery+%F0%9F%91%8B;%3E+Backend+%26+Database+Engineer+%F0%9F%87%B2%F0%9F%87%AC;%3E+Java+%7C+Spring+Boot+%7C+NestJS+%7C+PostgreSQL;%3E+sudo+hydrate+--now+%F0%9F%92%A7" alt="Typing SVG"/>
