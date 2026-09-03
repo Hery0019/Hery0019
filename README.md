@@ -4,13 +4,17 @@
 ```java
 public class Welcome {
 
-    public static void main(String[] args) {
-        String name  = "Hery";
-        String role  = "Backend & Database Engineer";
-        String stack = "Java · Spring Boot · NestJS · PostgreSQL";
+    static final String NAME = "Hery";
+    static final String ROLE = "Backend & Database Engineer";
+    static final String[] STACK = { "Java", "Spring Boot", "NestJS", "PostgreSQL" };
 
+    public static void main(String[] args) {
+        greet(NAME, ROLE, STACK);
+    }
+
+    static void greet(String name, String role, String[] stack) {
         System.out.println("👋 Welcome — I'm " + name + ", " + role + ".");
-        System.out.println("🛠️  " + stack);
+        System.out.println("🛠️  " + String.join(" · ", stack));
         System.out.println("🇲🇬 Madagascar · Remote · open for freelance");
     }
 }
