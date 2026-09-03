@@ -1,24 +1,9 @@
 <!-- ═══════════════════════════════ WELCOME ═══════════════════════════════ -->
 <h1 align="center">Hery RAKOTONARIVO</h1>
 
-```java
-public class Welcome {
-
-    static final String NAME = "Hery";
-    static final String ROLE = "Backend & Database Engineer";
-    static final String[] STACK = { "Java", "Spring Boot", "NestJS", "PostgreSQL" };
-
-    public static void main(String[] args) {
-        greet(NAME, ROLE, STACK);
-    }
-
-    static void greet(String name, String role, String[] stack) {
-        System.out.println("👋 Welcome — I'm " + name + ", " + role + ".");
-        System.out.println("🛠️  " + String.join(" · ", stack));
-        System.out.println("🇲🇬 Madagascar · Remote · open for freelance");
-    }
-}
-```
+<div align="center">
+  <img src="assets/welcome.svg" width="820" alt="Welcome.java being typed"/>
+</div>
 
 <div align="center">
   <a href="https://github.com/Hery0019">

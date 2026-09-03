@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 820 310" width="820" height="310" role="img" aria-label="Welcome.java being typed">
+  <rect x="1" y="1" width="818" height="308" rx="10" fill="#0d1117" stroke="#164e63" stroke-width="2"/>
+  <line x1="1" y1="46" x2="819" y2="46" stroke="#164e63" stroke-width="1"/>
+  <circle cx="24" cy="24" r="6" fill="#f87171"/>
+  <circle cx="44" cy="24" r="6" fill="#fbbf24"/>
+  <circle cx="64" cy="24" r="6" fill="#34d399"/>
+  <text x="88" y="29" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" fill="#8b949e">Welcome.java</text>
+  <path id="l0" fill="none" d="m 24,76 h 0">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="linear"
+      keyTimes="0;0.0300;0.0973;0.95;1"
+      values="m 24,76 h 0;m 24,76 h 0;m 24,76 h 244;m 24,76 h 244;m 24,76 h 0"/>
+  </path>
+  <text xml:space="preserve" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15"><textPath xlink:href="#l0"><tspan fill="#22d3ee">public class </tspan><tspan fill="#a5f3fc">Welcome</tspan><tspan fill="#c9d1d9"> {</tspan></textPath></text>
+  <path id="l1" fill="none" d="m 24,128 h 0">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="linear"
+      keyTimes="0;0.0973;0.3236;0.95;1"
+      values="m 24,128 h 0;m 24,128 h 0;m 24,128 h 764;m 24,128 h 764;m 24,128 h 0"/>
+  </path>
+  <text xml:space="preserve" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15"><textPath xlink:href="#l1"><tspan fill="#c9d1d9">    </tspan><tspan fill="#22d3ee">static final </tspan><tspan fill="#a5f3fc">String[] </tspan><tspan fill="#c9d1d9">STACK = { </tspan><tspan fill="#fbbf24">"Java"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#fbbf24">"Spring Boot"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#fbbf24">"PostgreSQL"</tspan><tspan fill="#c9d1d9"> };</tspan></textPath></text>
+  <path id="l2" fill="none" d="m 24,180 h 0">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="linear"
+      keyTimes="0;0.3236;0.4582;0.95;1"
+      values="m 24,180 h 0;m 24,180 h 0;m 24,180 h 464;m 24,180 h 464;m 24,180 h 0"/>
+  </path>
+  <text xml:space="preserve" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15"><textPath xlink:href="#l2"><tspan fill="#c9d1d9">    </tspan><tspan fill="#22d3ee">public static void </tspan><tspan fill="#d2a8ff">main</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#a5f3fc">String[] </tspan><tspan fill="#c9d1d9">args) {</tspan></textPath></text>
+  <path id="l3" fill="none" d="m 24,206 h 0">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="linear"
+      keyTimes="0;0.4582;0.6417;0.95;1"
+      values="m 24,206 h 0;m 24,206 h 0;m 24,206 h 624;m 24,206 h 624;m 24,206 h 0"/>
+  </path>
+  <text xml:space="preserve" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15"><textPath xlink:href="#l3"><tspan fill="#c9d1d9">        </tspan><tspan fill="#d2a8ff">greet</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#fbbf24">"Hery"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#fbbf24">"Backend &amp; Database Engineer"</tspan><tspan fill="#c9d1d9">, STACK);</tspan></textPath></text>
+  <path id="l4" fill="none" d="m 24,232 h 0">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="linear"
+      keyTimes="0;0.6417;0.6569;0.95;1"
+      values="m 24,232 h 0;m 24,232 h 0;m 24,232 h 74;m 24,232 h 74;m 24,232 h 0"/>
+  </path>
+  <text xml:space="preserve" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15"><textPath xlink:href="#l4"><tspan fill="#c9d1d9">    }</tspan></textPath></text>
+  <path id="l5" fill="none" d="m 24,258 h 0">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" calcMode="linear"
+      keyTimes="0;0.6569;0.6600;0.95;1"
+      values="m 24,258 h 0;m 24,258 h 0;m 24,258 h 34;m 24,258 h 34;m 24,258 h 0"/>
+  </path>
+  <text xml:space="preserve" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15"><textPath xlink:href="#l5"><tspan fill="#c9d1d9">}</tspan></textPath></text>
+  <rect x="24" y="272" width="9" height="17" fill="#22d3ee">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+      keyTimes="0;0.66;0.69;0.73;0.77;0.81;0.85;0.89;0.95;1"
+      values="0;0;1;0;1;0;1;0;0;0"/>
+  </rect>
+</svg>
