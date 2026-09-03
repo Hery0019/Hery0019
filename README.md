@@ -1,13 +1,20 @@
-<!-- ═══════════════════════════════ COVER ═══════════════════════════════ -->
-<!-- Photo: Taylor Vick — Unsplash (unsplash.com/photos/M5tzZtFCOfs) — Unsplash License -->
-<div align="center">
-  <img src="assets/cover.jpg" width="100%" alt="Server room — backend & database engineering"/>
-</div>
-
+<!-- ═══════════════════════════════ WELCOME ═══════════════════════════════ -->
 <h1 align="center">Hery0019</h1>
-<p align="center">
-  <b>&gt;_ Software Developer</b> &nbsp;·&nbsp; Backend &amp; Database Engineer &nbsp;·&nbsp; 🇲🇬 Madagascar · Remote
-</p>
+
+```java
+public class Welcome {
+
+    public static void main(String[] args) {
+        String name  = "Hery";
+        String role  = "Backend & Database Engineer";
+        String stack = "Java · Spring Boot · NestJS · PostgreSQL";
+
+        System.out.println("👋 Welcome — I'm " + name + ", " + role + ".");
+        System.out.println("🛠️  " + stack);
+        System.out.println("🇲🇬 Madagascar · Remote · open for freelance");
+    }
+}
+```
 
 <div align="center">
   <a href="https://github.com/Hery0019">
@@ -22,116 +29,6 @@
 </div>
 
 <br/>
-
-<!-- ═══════════════════════════════ WHOAMI ═══════════════════════════════ -->
-```bash
-hery@dev:~$ whoami
-Hery — Software Developer | Backend & Database Engineer
-
-hery@dev:~$ cat about.txt
-🎓 CS graduate — IT University Madagascar
-🧠 I build backends and design databases that hold up in production.
-
-hery@dev:~$ █
-```
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<!-- ═══════════════════════════════ NEOFETCH ═══════════════════════════════ -->
-## 🖥️ `neofetch --hery`
-
-```text
-                   -`                     hery@Hery0019
-                  .o+`                    ─────────────────────────────────────
-                 `ooo/                    OS        : Linux 🐧 (terminal is home)
-                `+oooo:                   Role      : Software Developer
-               `+oooooo:                  Shell     : bash / zsh
-               -+oooooo+:                 Editor    : IntelliJ IDEA · VS Code
-             `/:-:++oooo+:                Uptime    : coding since university
-            `/++++/+++++++:               Packages  : water 💧 (latest) · curiosity
-           `/++++++++++++++:
-          `/+++ooooooooooooo/`            Status    : 🟢 open for freelance missions
-         ./ooosssso++osssssso+`           Contact   : herakotonarivo@gmail.com
-        .oossssso-````/ossssss+`
-       -osssssso.      :ssssssso.
-      :osssssss/        osssso+++.
-     /ossssssss/        +ssssooo/-
-   `/ossssso+/:-        -:/+osssso+-      ─────────────────────────────────────
-  `+sso+:-`                 `.-/+oso:     ████ ████ ████ ████ ████ ████ ████ ████
- `++:.                           `-/+/
- .`                                 `/
-```
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<!-- ═══════════════════════════════ TECH STACK ═══════════════════════════════ -->
-## 🛠️ `ls -la ~/skills`
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,nestjs,nodejs,ts,postgres,mongodb,mysql,angular,html,css,linux,bash,git,github,docker,idea,vscode,postman&perline=10" width="88%" alt="Tech stack"/>
-  <br/><br/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg" height="52" alt="Salesforce"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/anthropic/D97757" height="46" alt="Claude"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/githubcopilot/ffffff" height="46" alt="GitHub Copilot"/>
-  <br/><br/>
-  <sub>📚 Currently learning <b>Salesforce · Apex · SOQL</b> &nbsp;·&nbsp; 🤖 AI as a pair programmer, not an autopilot</sub>
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<!-- ═══════════════════════════════ WHAT I DO ═══════════════════════════════ -->
-## 🧩 `./what_i_do.sh`
-
-| | |
-|---|---|
-| 🏗️ **Backend** | **Java / Spring Boot** · **NestJS** |
-| 🗄️ **Databases** | **PostgreSQL** · **MongoDB** — schema design & performance |
-| 🔐 **Security** | **JWT** · **Spring Security** |
-| 🔄 **APIs** | Clean **REST APIs**, documented and integrated |
-| ☁️ **Deployment** | Shipping and maintaining in **production** |
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<!-- ═══════════════════════════════ FREELANCE ═══════════════════════════════ -->
-## 💼 `systemctl status freelance`
-
-```text
-● freelance.service — Hery0019 Freelance Missions
-     Loaded: loaded (/etc/hery/freelance.service; enabled)
-     Active: active (running) 🟢  — accepting new missions
-   Location: Madagascar 🇲🇬 · remote-friendly 🌍
-```
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚙️ Backend APIs & Databases</h3>
-      <ul>
-        <li>REST APIs (Spring Boot / NestJS)</li>
-        <li>PostgreSQL / MongoDB design & tuning</li>
-        <li>Auth, security, roles</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌐 Full-stack Web Applications</h3>
-      <ul>
-        <li>Backend + Angular frontend</li>
-        <li>Management apps, dashboards, reporting</li>
-        <li>Deployment & maintenance</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <a href="mailto:herakotonarivo@gmail.com">
-    <img src="https://img.shields.io/badge/📧_Let's_work_together-0e7490?style=for-the-badge&labelColor=0d1117&color=0e7490" alt="Contact"/>
-  </a>
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
 ## 🌱 `git log --projects`
@@ -214,28 +111,6 @@ hery@dev:~$ █
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ═══════════════════════════════ SNAKE ═══════════════════════════════ -->
-## 🐍 `./snake --eat contributions`
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
-  </picture>
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<!-- ═══════════════════════════════ QUOTE ═══════════════════════════════ -->
-## 💬 `echo $MOTTO`
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=4000&pause=0&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=%22Anyone+can+produce+code+now.;The+job+is+knowing+which+code+deserves+to+exist.%22;%E2%80%8B" alt="Motto"/>
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
 <!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
 ## 📫 `ping hery`
 
@@ -250,15 +125,6 @@ hery@dev:~$ █
     <img src="https://img.shields.io/badge/GitHub-Hery0019-0d1117?style=for-the-badge&logo=github&logoColor=22d3ee" alt="GitHub"/>
   </a>
 </div>
-
-```bash
-hery@dev:~$ ping hery
-PING hery (herakotonarivo@gmail.com): 64 bytes of data.
-64 bytes from linkedin.com/in/herakotonarivo: time=0.1ms  status=available ✅
-64 bytes from github.com/Hery0019:             time=0.1ms  status=building 🚧
---- hery ping statistics ---
-2 packets transmitted, 2 received, 0% packet loss — always reachable 📡
-```
 
 <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
 <div align="center">
