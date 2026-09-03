@@ -1,16 +1,13 @@
-<!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
+<!-- ═══════════════════════════════ COVER ═══════════════════════════════ -->
+<!-- Photo: Taylor Vick — Unsplash (unsplash.com/photos/M5tzZtFCOfs) — Unsplash License -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:083344,100:22d3ee&height=220&section=header&text=Hery0019&fontSize=72&fontColor=22d3ee&animation=twinkling&fontAlignY=32&desc=%3E_%20Software%20Developer%20%7C%20Backend%20%26%20Database%20Engineer&descSize=20&descAlignY=55&descColor=c9d1d9" width="100%"/>
+  <img src="assets/cover.jpg" width="100%" alt="Server room — backend & database engineering"/>
 </div>
 
-<!-- ═══════════════════════════════ PHOTO ═══════════════════════════════ -->
-<div align="center">
-  <a href="https://github.com/Hery0019">
-    <img src="https://images.weserv.nl/?url=github.com/Hery0019.png&w=400&h=400&fit=cover&mask=circle" width="170" alt="Hery — photo de profil"/>
-  </a>
-  <br/>
-  <sub><b>Hery</b> &nbsp;·&nbsp; 📍 Madagascar &nbsp;·&nbsp; 💻 Backend &amp; Database Engineer</sub>
-</div>
+<h1 align="center">Hery0019</h1>
+<p align="center">
+  <b>&gt;_ Software Developer</b> &nbsp;·&nbsp; Backend &amp; Database Engineer &nbsp;·&nbsp; 🇲🇬 Madagascar · Remote
+</p>
 
 <div align="center">
   <a href="https://github.com/Hery0019">
