@@ -56,22 +56,11 @@ tooling    docker · git · prompt engineering
 
 ### `~/contributions`
 
-<!-- contributions:start -->
-
-```text
-    Sep Oct Nov  Dec Jan Feb Mar  Apr May  Jun Jul Aug
-    ··░·░░·············░·░·······░░·░·······░········░··█
-Mon ·······░·········░·░░░·······░░░░░▓▓▓·░░▒░▒░·░▒░░▓▒▓█
-    ···░········░·······░·······░·▒░░▒░▒▒▒▒▒▒░▒·░░▒▒░▒·██
-Wed ··░░···░··░···░····░········░░▒░░░▒░▒·░▓▒▒▒·░░░▒░░░█▒
-    ···░····░░·░······░░·░······░▒░▒·▒▒·▒░░░░░░··▒░▒▒░██
-Fri ░··························░░░░·▒·▒░░▒░▒▒·░░░·░░░░██
-    ····░·······················░░·░░······░·········░·█
-
-    2384 contributions   2025-09-07 → 2026-09-09   · ░ ▒ ▓ █  less → more
-```
-
-<!-- contributions:end -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
+</picture>
 
 ### `~/contact`
 
