@@ -16,17 +16,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      # The colours match the README banner: a warm amber snake over a dark grey ramp,
-      # so the contribution grid reads as part of the same terminal.
-      - name: Generate snake SVGs
+      # One file, not a light/dark pair. <picture> picks a source by theme and
+      # never falls back to <img> when that source fails to load, so a second
+      # URL is a second way for the grid to vanish entirely. Empty cells are
+      # fully transparent and the levels are the banner amber at rising alpha,
+      # which reads on a light page and a dark one alike; the snake is a mid
+      # amber dark enough for white backgrounds and light enough for black.
+      - name: Generate the snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%2308090B&color_dots=%23EBEDF0,%23F5DFB0,%23E8A33D,%23B87514,%237A4C0C
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%23F0F3F6&color_dots=%23161B22,%234A3410,%238A5E12,%23C98A1E,%23E8A33D
+            dist/snake.svg?color_snake=%23B87514&color_dots=%2300000000,%23E8A33D40,%23E8A33D80,%23E8A33DC0,%23E8A33D
 
-      - name: Push SVGs to the output branch
+      - name: Push the SVG to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

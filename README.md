@@ -56,11 +56,7 @@ tooling    docker · git · prompt engineering
 
 ### `~/contributions`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg?v=2"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake.svg?v=2"/>
-  <img src="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg?v=2" alt="A snake eating the GitHub contribution grid of Hery0019" width="100%"/>
-</picture>
+<img src="https://raw.githubusercontent.com/Hery0019/Hery0019/output/snake.svg" alt="A snake eating the GitHub contribution grid of Hery0019" width="100%"/>
 
 ### `~/contact`
 
