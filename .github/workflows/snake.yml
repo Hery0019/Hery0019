@@ -2,8 +2,9 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    # Every 12 hours
-    - cron: "0 */12 * * *"
+    # Twice a day, 37 min past the hour. GitHub queues top-of-hour schedules the most:
+    # the 00:00 / 12:00 UTC runs of this workflow started 1 h 46 to 4 h 49 late (3-9 Sept. 2026).
+    - cron: "37 0,12 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -11,11 +12,36 @@ on:
 permissions:
   contents: write
 
+# Runs queue up instead of cancelling each other: a cancelled run could leave the output
+# branch ahead of the README; the gate below repairs that, but there is no reason to cause it.
+concurrency:
+  group: snake
+  cancel-in-progress: false
+
+env:
+  FILES: github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+  DIST: dist
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
+      # The README references the SVGs as cdn.jsdelivr.net/gh/<repo>@<commit>/<file>. GitHub then
+      # serves them through its image proxy (camo), whose Fastly backend is not the saturated one
+      # behind raw.githubusercontent.com (503 "Backend.max_conn reached" from the Johannesburg POP
+      # that serves Madagascar: raw failed 91-100 % of its cache misses there while camo fetched the
+      # same files 146/146 times at the same seconds, 9 Sept. 2026). A commit-pinned jsDelivr URL is
+      # immutable (cached 1 year by jsDelivr, camo and browsers), so a new drawing means a new URL:
+      # this workflow rewrites the sha in the README (one bot commit on main) each time the snake
+      # changes. No purge API, no branch-resolution cache, no stale browser copy.
+      - name: Check out main
+        uses: actions/checkout@v4
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
@@ -24,10 +50,134 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=cyan
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=cyan
 
+      # A broken SVG would otherwise be pinned for a year by every cache; the old snake stays up instead.
+      - name: Refuse a degenerate SVG
+        run: |
+          set -euo pipefail
+          for f in $FILES; do
+            p="$DIST/$f"
+            size=$(stat -c %s "$p")
+            rects=$(grep -o '<rect' "$p" | wc -l)
+            if [ "$size" -lt 20000 ] || [ "$rects" -lt 300 ] || ! grep -q '<style' "$p" || ! tail -c 20 "$p" | grep -q '</svg>'; then
+              echo "::error::$f looks broken ($size bytes, $rects <rect>, <style>/</svg> check) - nothing pushed, the old snake stays up"
+              exit 1
+            fi
+            echo "$f: $size bytes, $rects <rect>, sha256 $(sha256sum "$p" | cut -c1-12)"
+          done
+
+      # The README is the source of truth: compare with the commit it references, not with the
+      # output branch. A run that pushed output but never rewrote the README is redone next time
+      # instead of being mistaken for "unchanged". Unchanged snake = no commit anywhere.
+      - name: Did the snake change since the version the README points at?
+        id: gate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -uo pipefail; set +e
+          ref=$(grep -oE "cdn\.jsdelivr\.net/gh/$GITHUB_REPOSITORY@[0-9a-f]{40}" README.md | head -n1 | sed 's/.*@//')
+          echo "README points at output@${ref:-<no jsDelivr sha URL found>}"
+          changed=false
+          for f in $FILES; do
+            new=$(sha256sum "$DIST/$f" | cut -d' ' -f1)
+            old=""
+            if [ -n "$ref" ]; then
+              old=$(curl -fsS --max-time 30 -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github.raw+json" \
+                      "https://api.github.com/repos/$GITHUB_REPOSITORY/contents/$f?ref=$ref" | sha256sum | cut -d' ' -f1) \
+              || old=$(curl -fsS --max-time 30 "https://cdn.jsdelivr.net/gh/$GITHUB_REPOSITORY@$ref/$f" | sha256sum | cut -d' ' -f1) \
+              || old=""
+            fi
+            if [ "$old" = "$new" ]; then echo "$f: unchanged"; else echo "$f: changed"; changed=true; fi
+          done
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
+
       - name: Push SVGs to the output branch
+        if: steps.gate.outputs.changed == 'true'
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Point the README at the new snake
+        if: steps.gate.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -uo pipefail; set +e
+          sha=$(git ls-remote "https://github.com/$GITHUB_REPOSITORY.git" refs/heads/output | cut -f1)
+          if ! [[ "$sha" =~ ^[0-9a-f]{40}$ ]]; then echo "::error::could not read the tip of the output branch"; exit 1; fi
+          echo "output branch is now at $sha"
+          CDN="https://cdn.jsdelivr.net/gh/$GITHUB_REPOSITORY@$sha"
+
+          # 1) jsDelivr fetches the new files (it keeps every file it has served, permanently) and
+          #    must serve exactly what was generated. The README is not touched until this holds.
+          for f in $FILES; do
+            want=$(sha256sum "$DIST/$f" | cut -d' ' -f1)
+            got=""
+            for i in 1 2 3 4 5; do
+              got=$(curl -fsS --max-time 20 "$CDN/$f" | sha256sum | cut -d' ' -f1)
+              [ "$got" = "$want" ] && break
+              sleep 10
+            done
+            if [ "$got" != "$want" ]; then
+              echo "::warning::jsDelivr does not serve the new $f yet; README left unchanged, the next run retries"
+              exit 0
+            fi
+            echo "jsDelivr serves the new $f"
+          done
+
+          # 2) GitHub's image proxy must be able to fetch it. This only warms the runner's own POP;
+          #    every other POP (Johannesburg included) fetches on first view, and a failed fetch is
+          #    never cached by camo, so a visitor simply retries on the next page load.
+          for f in $FILES; do
+            want=$(sha256sum "$DIST/$f" | cut -d' ' -f1)
+            camo=$(curl -fsS --max-time 30 -X POST https://api.github.com/markdown \
+                     -H "Authorization: Bearer $GITHUB_TOKEN" -H "Content-Type: application/json" \
+                     -d "{\"text\":\"![]($CDN/$f)\",\"mode\":\"gfm\",\"context\":\"$GITHUB_REPOSITORY\"}" \
+                   | grep -o 'https://camo.githubusercontent.com/[0-9a-f]*/[0-9a-f]*' | head -n1)
+            if [ -z "$camo" ]; then echo "::warning::could not resolve the camo URL of $f (markdown API); skipping this check"; continue; fi
+            got=""
+            for i in 1 2 3; do
+              got=$(curl -fsS --max-time 20 "$camo" | sha256sum | cut -d' ' -f1)
+              [ "$got" = "$want" ] && break
+              sleep 10
+            done
+            if [ "$got" != "$want" ]; then
+              echo "::warning::camo cannot fetch the new $f right now; README left unchanged, the next run retries"
+              exit 0
+            fi
+            echo "camo serves the new $f (from the runner's POP)"
+          done
+
+          # 3) Rewrite the sha in the README. A push made with GITHUB_TOKEN does not trigger
+          #    workflows (GitHub rule) and the message carries [skip ci] on top: no loop.
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch -q --depth=1 origin main && git reset -q --hard FETCH_HEAD
+            sed -i -E "s#(cdn\.jsdelivr\.net/gh/$GITHUB_REPOSITORY@)[0-9a-f]{40}#\1$sha#g" README.md
+            if git diff --quiet -- README.md; then
+              if grep -q "@$sha/" README.md; then
+                echo "README already points at $sha"
+              else
+                echo "::warning::README.md has no cdn.jsdelivr.net/gh/$GITHUB_REPOSITORY@<sha> URL to update"
+              fi
+              exit 0
+            fi
+            git commit -q -am "Point the snake at output@${sha:0:7} [skip ci]"
+            if git push -q origin HEAD:main; then
+              echo "README now points at $sha"
+              # 4) Confirm GitHub proxies the new URLs (both <source srcset> and <img src>).
+              hex=$(printf '%s' "@$sha/" | od -An -tx1 | tr -d ' \n')
+              n=$(curl -fsS --max-time 30 -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github.html+json" \
+                    "https://api.github.com/repos/$GITHUB_REPOSITORY/readme" \
+                  | grep -o 'https://camo.githubusercontent.com/[0-9a-f]*/[0-9a-f]*' | grep -c "$hex")
+              [ "${n:-0}" -ge 2 ] && echo "rendered README loads the snake through camo ($n URLs)" \
+                || echo "::warning::rendered README shows ${n:-0} camo URL(s) for the new sha (expected 2 or more)"
+              exit 0
+            fi
+            echo "push rejected (main moved), retrying in 15 s"
+            sleep 15
+          done
+          echo "::warning::could not push the README update after 3 attempts; the next run retries"
