@@ -11,9 +11,7 @@ hery@madagascar:~$ whoami
 ██      ██  ██          ██            ████████
 ██      ██    ██████    ██                  ██
                                             ██
-                                    ████████  
-
-R A K O T O N A R I V O
+R  A  K  O  T  O  N  A  R  I  V  O  ████████  
 
 software engineer · backend & databases · open for freelance
 ```
