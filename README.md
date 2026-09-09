@@ -1,4 +1,20 @@
-<img src="assets/wordmark.svg" width="100%" alt="hery@madagascar:~$ whoami — Hery RAKOTONARIVO, software engineer, backend and databases, open for freelance"/>
+```text
+hery@madagascar:~$ whoami
+
+██      ██
+██      ██
+██      ██    ██████    ██  ████    ██      ██
+██████████  ██      ██  ████    ██  ██      ██
+██      ██  ██████████  ██          ██      ██
+██      ██  ██          ██            ████████
+██      ██    ██████    ██                  ██
+                                            ██
+                                    ████████
+
+R A K O T O N A R I V O
+
+software engineer · backend & databases · open for freelance
+```
 
 ### `~/about`
 
@@ -43,7 +59,7 @@ tooling    docker · git · prompt engineering
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg?v=2"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake.svg?v=2"/>
-  <img src="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg?v=2" alt="Contribution snake" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg?v=2" alt="A snake eating the GitHub contribution grid of Hery0019" width="100%"/>
 </picture>
 
 ### `~/contact`
