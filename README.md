@@ -8,7 +8,7 @@
      cdn.jsdelivr.net/gh/Hery0019/Hery0019@<sha> in this file to the tip of the output branch,
      which has no assets/ directory, so a sha-pinned mark would be rewritten into a 404. The file
      itself lives at assets/logo.svg in this repo. -->
-<img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/logo.svg" alt="Hery RAKOTONARIVO" width="220">
+<a href="https://imhery.dev"><img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/logo.svg" alt="Hery RAKOTONARIVO" width="220"></a>
 
 ```text
 Greetings to each and every one of you
