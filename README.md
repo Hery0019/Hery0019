@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="hery@madagascar:~$ whoami — HERY RAKOTONARIVO, software engineer, backend and databases, open for freelance"/>
+<img src="assets/wordmark.svg" width="100%" alt="hery@madagascar:~$ whoami — Hery RAKOTONARIVO, software engineer, backend and databases, open for freelance"/>
 
 ### `~/about`
 
