@@ -1,7 +1,7 @@
 <div align="center">
 
 ```text
-Welcome. Glad you dropped by — have a look around.
+Greetings to each and every one of you
 
 hery@madagascar:~$ whoami
 
