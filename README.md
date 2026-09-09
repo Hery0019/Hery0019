@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.svg" alt="Hery RAKOTONARIVO" width="220">
+
 ```text
 Greetings to each and every one of you
 
