@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="assets/logo.svg" alt="Hery RAKOTONARIVO" width="220">
+<!-- The mark is loaded through jsDelivr for the same reason as the snake below: from the
+     Johannesburg POP that serves Madagascar, raw.githubusercontent.com answers 503
+     "Backend.max_conn reached" on most of its cache misses, and a relative src="assets/logo.svg"
+     resolves to exactly that host, which is why it rendered as a broken image. This URL is pinned
+     to the branch and not to a commit sha on purpose: snake.yml rewrites every
+     cdn.jsdelivr.net/gh/Hery0019/Hery0019@<sha> in this file to the tip of the output branch,
+     which has no assets/ directory, so a sha-pinned mark would be rewritten into a 404. The file
+     itself lives at assets/logo.svg in this repo. -->
+<img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/logo.svg" alt="Hery RAKOTONARIVO" width="220">
 
 ```text
 Greetings to each and every one of you
