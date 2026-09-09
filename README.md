@@ -56,7 +56,22 @@ tooling    docker · git · prompt engineering
 
 ### `~/contributions`
 
-<img src="https://raw.githubusercontent.com/Hery0019/Hery0019/output/snake.svg" alt="A snake eating the GitHub contribution grid of Hery0019" width="100%"/>
+<!-- contributions:start -->
+
+```text
+    Sep Oct Nov  Dec Jan Feb Mar  Apr May  Jun Jul Aug
+    ··░·░░·············░·░·······░░·░·······░········░··█
+Mon ·······░·········░·░░░·······░░░░░▓▓▓·░░▒░▒░·░▒░░▓▒▓█
+    ···░········░·······░·······░·▒░░▒░▒▒▒▒▒▒░▒·░░▒▒░▒·██
+Wed ··░░···░··░···░····░········░░▒░░░▒░▒·░▓▒▒▒·░░░▒░░░█▒
+    ···░····░░·░······░░·░······░▒░▒·▒▒·▒░░░░░░··▒░▒▒░██
+Fri ░··························░░░░·▒·▒░░▒░▒▒·░░░·░░░░██
+    ····░·······················░░·░░······░·········░·█
+
+    2384 contributions   2025-09-07 → 2026-09-09   · ░ ▒ ▓ █  less → more
+```
+
+<!-- contributions:end -->
 
 ### `~/contact`
 
