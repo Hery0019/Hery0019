@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-label="Hello — Hery RAKOTONARIVO, Software Engineer in Antananarivo. Available for a new project.">
+  <!-- Palette and type taken from imhery.dev: canvas grey-6 #121212, text white,
+       accent blue #C0D9E8, accent green #C0E8CD, hairline grey-4 #353535.
+       Everything is drawn at full opacity — only the marquee and the availability
+       dot animate, so a renderer that ignores SMIL still shows the whole card. -->
+  <defs>
+    <clipPath id="marquee-window"><rect x="0" y="421" width="1200" height="59"/></clipPath>
+    <style>
+      .display { font-family: Archivo, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .text    { font-family: Commissioner, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .spec    { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="480" fill="#121212"/>
+
+  <!-- wordmark row -->
+  <g class="spec" font-size="15" letter-spacing="2.7">
+    <text x="56" y="52" fill="#ABABAB">HERY RAKOTONARIVO</text>
+    <text x="1144" y="52" fill="#707070" text-anchor="end">ANTANANARIVO · MG</text>
+  </g>
+  <line x1="56" y1="76" x2="1144" y2="76" stroke="#353535" stroke-width="1"/>
+
+  <!-- the site's surface-block, in accent blue with black type on it -->
+  <rect x="1052" y="118" width="92" height="252" fill="#C0D9E8"/>
+  <text class="spec" x="1098" y="244" fill="#000000" font-size="15" font-weight="600" letter-spacing="3.4"
+        text-anchor="middle" transform="rotate(-90 1098 244)">IMHERY.DEV</text>
+
+  <!-- greeting -->
+  <text class="display" x="56" y="196" fill="#FFFFFF" font-size="92" font-weight="700" letter-spacing="-1">Hello,</text>
+  <text class="display" x="56" y="252" fill="#C0D9E8" font-size="38" font-weight="500">Software Engineer</text>
+
+  <!-- bio -->
+  <g class="text" font-size="19" fill="#ABABAB">
+    <text x="56" y="300">Developer in Antananarivo. I build business applications and custom</text>
+    <text x="56" y="328">websites, and bring AI into the tools you already have.</text>
+  </g>
+
+  <!-- pills: one filled in white with black type, one hairline outline -->
+  <rect x="56" y="358" width="196" height="40" rx="20" fill="#FFFFFF"/>
+  <text class="spec" x="154" y="383" fill="#000000" font-size="14" font-weight="600" letter-spacing="2.5" text-anchor="middle">GET IN TOUCH</text>
+  <rect x="268" y="358" width="204" height="40" rx="20" fill="none" stroke="#525252" stroke-width="1"/>
+  <text class="spec" x="370" y="383" fill="#FFFFFF" font-size="14" font-weight="500" letter-spacing="2.5" text-anchor="middle">VIEW THE WORK</text>
+
+  <!-- availability -->
+  <circle cx="828" cy="378" r="5" fill="#C0E8CD">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text class="text" x="846" y="383" fill="#C0E8CD" font-size="15">Available for a new project</text>
+
+  <!-- marquee: three copies, each pinned to exactly 1200 user units by textLength,
+       so a translate of -1200 lands on the picture it started from — no seam. -->
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="#353535" stroke-width="1"/>
+  <g clip-path="url(#marquee-window)">
+    <g class="spec" font-size="14" fill="#525252">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="24s" repeatCount="indefinite"/>
+      <text x="-1144" y="457" textLength="1200" lengthAdjust="spacing">AI INTEGRATION — PROMPT ENGINEERING — WEB APPLICATIONS — CUSTOM SITES — CLEAN ARCHITECTURE — REACT — </text>
+      <text x="56" y="457" textLength="1200" lengthAdjust="spacing">AI INTEGRATION — PROMPT ENGINEERING — WEB APPLICATIONS — CUSTOM SITES — CLEAN ARCHITECTURE — REACT — </text>
+      <text x="1256" y="457" textLength="1200" lengthAdjust="spacing">AI INTEGRATION — PROMPT ENGINEERING — WEB APPLICATIONS — CUSTOM SITES — CLEAN ARCHITECTURE — REACT — </text>
+    </g>
+  </g>
+</svg>

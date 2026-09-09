@@ -16,13 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # The colours are the imhery.dev palette: the grey ramp up to accent blue
+      # for the contribution dots, and text-primary white for the snake itself.
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=cyan
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=cyan
+            dist/github-contribution-grid-snake.svg?color_snake=%23121212&color_dots=%23EDEDED,%23C0D9E8,%238FBBD6,%23507A91,%23121212
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FFFFFF&color_dots=%23171717,%23353535,%23707070,%23ABABAB,%23C0D9E8
 
       - name: Push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4

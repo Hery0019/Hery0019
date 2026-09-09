@@ -1,169 +1,262 @@
-<!-- ═══════════════════════════════ WELCOME ═══════════════════════════════ -->
-<h1 align="center">Hery RAKOTONARIVO</h1>
+<!-- ════════════════════════════════ HERO ════════════════════════════════ -->
+<a href="https://imhery.dev">
+  <img src="assets/hero.svg" width="100%" alt="Hello — Hery RAKOTONARIVO, Software Engineer in Antananarivo"/>
+</a>
 
-<div align="center">
-  <img src="assets/welcome.svg" width="820" alt="Welcome.java being typed"/>
-</div>
-
-<div align="center">
-  <a href="https://github.com/Hery0019">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=%3E+Hi%2C+I'm+Hery+%F0%9F%91%8B;%3E+Backend+%26+Database+Engineer+%F0%9F%87%B2%F0%9F%87%AC;%3E+Java+%7C+Spring+Boot+%7C+NestJS+%7C+PostgreSQL;%3E+sudo+hydrate+--now+%F0%9F%92%A7" alt="Typing SVG"/>
+<p>
+  <a href="https://imhery.dev">
+    <img src="https://img.shields.io/badge/IMHERY.DEV-FFFFFF?style=for-the-badge&labelColor=FFFFFF" alt="imhery.dev"/>
   </a>
-</div>
+  <img src="https://img.shields.io/badge/AVAILABLE_FOR_A_NEW_PROJECT-C0E8CD?style=for-the-badge&labelColor=C0E8CD" alt="Available for a new project"/>
+  <img src="https://img.shields.io/badge/REPLY_WITHIN_24_H-121212?style=for-the-badge&labelColor=121212&color=121212" alt="Reply within 24 h"/>
+</p>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPEN%20FOR%20FREELANCE-0e7490?style=flat-square&labelColor=0d1117" alt="Status"/>
-  <img src="https://img.shields.io/badge/FOCUS-BACKEND%20%26%20DATABASES-0e7490?style=flat-square&labelColor=0d1117" alt="Focus"/>
-  <img src="https://img.shields.io/badge/LOCATION-MADAGASCAR%20%7C%20REMOTE-0e7490?style=flat-square&labelColor=0d1117" alt="Location"/>
-</div>
+<img src="assets/rule.svg" width="100%" alt=""/>
 
-<br/>
+<!-- ════════════════════════════════ WORK ════════════════════════════════ -->
+<img src="https://img.shields.io/badge/WORK-C0D9E8?style=for-the-badge&labelColor=C0D9E8" alt="Work"/>
 
-<!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
-## 🌱 `git log --projects`
+## Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🗜️ <a href="https://github.com/Hery0019/huffman">huffman</a></h3>
+      <h3><a href="https://github.com/Hery0019/huffman">huffman</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/Servlet_%2F_JSP-0d1117?style=flat-square&logo=apachetomcat&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Java-121212?style=flat-square&logo=openjdk&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/Servlet_%2F_JSP-121212?style=flat-square&logo=apachetomcat&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-121212?style=flat-square&logo=postgresql&logoColor=FFFFFF"/>
       </p>
       <p>Learn <b>Huffman coding</b> step by step: frequency table, binary tree, compressed output.</p>
       <p>
         <a href="https://github.com/Hery0019/huffman">
-          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
+          <img src="https://img.shields.io/badge/VIEW_THE_PROJECT-FFFFFF?style=for-the-badge&labelColor=FFFFFF"/>
         </a>
-        <img src="https://img.shields.io/github/last-commit/Hery0019/huffman?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/huffman?style=for-the-badge&labelColor=121212&color=121212&label=LAST%20COMMIT"/>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>♟️ <a href="https://github.com/Hery0019/chess">chess</a></h3>
+      <h3><a href="https://github.com/Hery0019/chess">chess</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/Swing-0d1117?style=flat-square&logo=eclipseide&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/Desktop_App-0d1117?style=flat-square&logo=gnome&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Java-121212?style=flat-square&logo=openjdk&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/Swing-121212?style=flat-square&logo=eclipseide&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/Desktop_App-121212?style=flat-square&logo=gnome&logoColor=FFFFFF"/>
       </p>
       <p>A full <b>chess game in Java Swing</b>: move rules, turns, game logic. Pure Java, no framework.</p>
       <p>
         <a href="https://github.com/Hery0019/chess">
-          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
+          <img src="https://img.shields.io/badge/VIEW_THE_PROJECT-FFFFFF?style=for-the-badge&labelColor=FFFFFF"/>
         </a>
-        <img src="https://img.shields.io/github/last-commit/Hery0019/chess?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/chess?style=for-the-badge&labelColor=121212&color=121212&label=LAST%20COMMIT"/>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🥖 <a href="https://github.com/Hery0019/BoulangeHery">BoulangeHery</a></h3>
+      <h3><a href="https://github.com/Hery0019/BoulangeHery">BoulangeHery</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/Servlet-0d1117?style=flat-square&logo=apachetomcat&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/Java-121212?style=flat-square&logo=openjdk&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/Servlet-121212?style=flat-square&logo=apachetomcat&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-121212?style=flat-square&logo=postgresql&logoColor=FFFFFF"/>
       </p>
       <p><b>Bakery management</b>: products, stock and sales, on a clean relational schema.</p>
       <p>
         <a href="https://github.com/Hery0019/BoulangeHery">
-          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
+          <img src="https://img.shields.io/badge/VIEW_THE_PROJECT-FFFFFF?style=for-the-badge&labelColor=FFFFFF"/>
         </a>
-        <img src="https://img.shields.io/github/last-commit/Hery0019/BoulangeHery?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/BoulangeHery?style=for-the-badge&labelColor=121212&color=121212&label=LAST%20COMMIT"/>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🪙 <a href="https://github.com/Hery0019/MobileCrypto">MobileCrypto</a></h3>
+      <h3><a href="https://github.com/Hery0019/MobileCrypto">MobileCrypto</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/Expo-0d1117?style=flat-square&logo=expo&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/React_Native-121212?style=flat-square&logo=react&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/Expo-121212?style=flat-square&logo=expo&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/TypeScript-121212?style=flat-square&logo=typescript&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/Firebase-121212?style=flat-square&logo=firebase&logoColor=FFFFFF"/>
       </p>
       <p><b>Crypto wallet mobile app</b>: auth, portfolio, transactions and charts. Team project.</p>
       <p>
         <a href="https://github.com/Hery0019/MobileCrypto">
-          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
+          <img src="https://img.shields.io/badge/VIEW_THE_PROJECT-FFFFFF?style=for-the-badge&labelColor=FFFFFF"/>
         </a>
-        <img src="https://img.shields.io/github/last-commit/Hery0019/MobileCrypto?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/MobileCrypto?style=for-the-badge&labelColor=121212&color=121212&label=LAST%20COMMIT"/>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏗️ <a href="https://github.com/Hery0019/prepwork">prepwork</a></h3>
+      <h3><a href="https://github.com/Hery0019/prepwork">prepwork</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/Spring_Boot-0d1117?style=flat-square&logo=springboot&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/TypeScript-121212?style=flat-square&logo=typescript&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/Node.js-121212?style=flat-square&logo=nodedotjs&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/Spring_Boot-121212?style=flat-square&logo=springboot&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/React-121212?style=flat-square&logo=react&logoColor=FFFFFF"/>
       </p>
       <p><b>Project scaffolding CLI</b>: a ready-to-code skeleton, tooled architecture rules and the specs for the AI agent that codes inside it. Spring Boot &amp; React packs.</p>
       <p>
         <a href="https://github.com/Hery0019/prepwork">
-          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
+          <img src="https://img.shields.io/badge/VIEW_THE_PROJECT-FFFFFF?style=for-the-badge&labelColor=FFFFFF"/>
         </a>
-        <img src="https://img.shields.io/github/last-commit/Hery0019/prepwork?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/prepwork?style=for-the-badge&labelColor=121212&color=121212&label=LAST%20COMMIT"/>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🗄️ <a href="https://github.com/Hery0019/Ledger">Ledger</a></h3>
+      <h3><a href="https://github.com/Hery0019/Ledger">Ledger</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/C%2B%2B20-0d1117?style=flat-square&logo=cplusplus&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/CMake-0d1117?style=flat-square&logo=cmake&logoColor=22d3ee"/>
-        <img src="https://img.shields.io/badge/Embedded_SQL-0d1117?style=flat-square&logoColor=22d3ee"/>
+        <img src="https://img.shields.io/badge/C%2B%2B20-121212?style=flat-square&logo=cplusplus&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/CMake-121212?style=flat-square&logo=cmake&logoColor=FFFFFF"/>
+        <img src="https://img.shields.io/badge/Embedded_SQL-121212?style=flat-square&logo=sqlite&logoColor=FFFFFF"/>
       </p>
       <p>An <b>embedded SQL engine in C++20</b> with plain-text storage. A learning project, meant for personal use afterwards.</p>
       <p>
         <a href="https://github.com/Hery0019/Ledger">
-          <img src="https://img.shields.io/badge/📂_View_repository-0e7490?style=flat-square&labelColor=0d1117&color=0e7490"/>
+          <img src="https://img.shields.io/badge/VIEW_THE_PROJECT-FFFFFF?style=for-the-badge&labelColor=FFFFFF"/>
         </a>
-        <img src="https://img.shields.io/github/last-commit/Hery0019/Ledger?style=flat-square&labelColor=0d1117&color=0e7490&label=last%20commit"/>
+        <img src="https://img.shields.io/github/last-commit/Hery0019/Ledger?style=for-the-badge&labelColor=121212&color=121212&label=LAST%20COMMIT"/>
       </p>
     </td>
   </tr>
 </table>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=320&lines=%3E+more+projects+loading...;%3E+git+push+origin+main;%3E+stay+tuned+%F0%9F%91%80" alt="More coming"/>
-  <br/>
+<p>
   <a href="https://github.com/Hery0019?tab=repositories">
-    <img src="https://img.shields.io/badge/ls_~%2Frepos_--all-0d1117?style=flat-square&logo=github&logoColor=22d3ee"/>
+    <img src="https://img.shields.io/badge/ALL_THE_REPOSITORIES-121212?style=for-the-badge&labelColor=121212&color=121212&logo=github&logoColor=FFFFFF"/>
   </a>
-</div>
+  <a href="https://imhery.dev">
+    <img src="https://img.shields.io/badge/THE_FULL_WORK_ON_IMHERY.DEV-121212?style=for-the-badge&labelColor=121212&color=121212"/>
+  </a>
+</p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<img src="assets/rule.svg" width="100%" alt=""/>
 
-<!-- ═══════════════════════════════ SNAKE ═══════════════════════════════ -->
-## 🐍 `./snake --eat contributions`
+<!-- ════════════════════════════════ STACK ═══════════════════════════════ -->
+<img src="https://img.shields.io/badge/STACK-C0D9E8?style=for-the-badge&labelColor=C0D9E8" alt="Stack"/>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
-  </picture>
-  <br/>
-  <sub>Last 12 months of contributions</sub>
-</div>
+## Technologies
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+The technologies used day to day.
 
-<!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
-## 📫 `ping hery`
+<p>
+  <img src="https://img.shields.io/badge/React-121212?style=flat-square&logo=react&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Next.js-121212?style=flat-square&logo=nextdotjs&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/TypeScript-121212?style=flat-square&logo=typescript&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/JavaScript-121212?style=flat-square&logo=javascript&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Node.js-121212?style=flat-square&logo=nodedotjs&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-121212?style=flat-square&logo=tailwindcss&logoColor=FFFFFF"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Java-121212?style=flat-square&logo=openjdk&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-121212?style=flat-square&logo=springboot&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/PHP-121212?style=flat-square&logo=php&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-121212?style=flat-square&logo=postgresql&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/MySQL-121212?style=flat-square&logo=mysql&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Oracle-121212?style=flat-square"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Docker-121212?style=flat-square&logo=docker&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Git-121212?style=flat-square&logo=git&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Prompt_engineering-121212?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Clean_architecture-121212?style=flat-square"/>
+</p>
 
-<div align="center">
+<img src="assets/rule.svg" width="100%" alt=""/>
+
+<!-- ═════════════════════════════ BACKGROUND ═════════════════════════════ -->
+<img src="https://img.shields.io/badge/BACKGROUND-C0D9E8?style=for-the-badge&labelColor=C0D9E8" alt="Background"/>
+
+## Education &amp; experience
+
+Two computer science degrees, and shipping production code since 2025.
+
+<table>
+  <tr>
+    <td width="42%" valign="top">
+      <p><img src="https://img.shields.io/badge/EDUCATION-121212?style=flat-square&labelColor=121212&color=121212"/></p>
+      <p>
+        <b>BSc in Computer Science — Development track</b><br/>
+        <a href="https://www.ituniversity-mg.com/">IT University Madagascar</a>
+      </p>
+      <p>
+        <b>BSc in Computer Science</b><br/>
+        <a href="https://cntemad.mg/">CNTEMAD</a>
+      </p>
+      <p><img src="https://img.shields.io/badge/LANGUAGES-121212?style=flat-square&labelColor=121212&color=121212"/></p>
+      <p><b>French &amp; English</b><br/>Fully fluent in both, spoken and written.</p>
+    </td>
+    <td width="58%" valign="top">
+      <p><img src="https://img.shields.io/badge/PROFESSIONAL_EXPERIENCE-121212?style=flat-square&labelColor=121212&color=121212"/></p>
+      <p>
+        <sub>SINCE AUG 2026 · PART&#8209;TIME · REMOTE</sub><br/>
+        <b>Freelance Developer</b> — Self&#8209;employed<br/>
+        Web development for direct clients: building new sites, taking over and improving existing ones.
+      </p>
+      <p>
+        <sub>SINCE OCT 2025 · FULL&#8209;TIME · REMOTE</sub><br/>
+        <b>Software Developer</b> — <a href="https://optimumsolutions.eu/">Optimum Solutions Ltd</a><br/>
+        HR and CRM business applications, with AI to automate tasks.
+      </p>
+      <p>
+        <sub>SINCE OCT 2025 · FULL&#8209;TIME · ON&#8209;SITE</sub><br/>
+        <b>Software Engineer</b> — <a href="https://www.solumada.mg/">Solumada</a><br/>
+        Business applications designed with the field teams, including AI solutions that analyse and assess documents.
+      </p>
+      <p>
+        <sub>AUG – OCT 2025 · INTERNSHIP · TANJOMBATO</sub><br/>
+        <b>Full&#8209;Stack Developer Intern</b> — Circonscription Scolaire Atsimondrano<br/>
+        A leave and absence management application for a public institution, replacing paper.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<img src="assets/rule.svg" width="100%" alt=""/>
+
+<!-- ═══════════════════════════════ GITHUB ═══════════════════════════════ -->
+<img src="https://img.shields.io/badge/GITHUB-C0D9E8?style=for-the-badge&labelColor=C0D9E8" alt="GitHub"/>
+
+## Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
+</picture>
+
+<sub>THE LAST 12 MONTHS</sub>
+
+<img src="assets/rule.svg" width="100%" alt=""/>
+
+<!-- ═══════════════════════════════ CONTACT ══════════════════════════════ -->
+<img src="https://img.shields.io/badge/GET_IN_TOUCH-C0D9E8?style=for-the-badge&labelColor=C0D9E8" alt="Get in touch"/>
+
+## Let’s work together
+
+Write me a couple of lines, by email or on WhatsApp. I reply within 24 hours, in English or in French.
+
+<p>
   <a href="mailto:herakotonarivo@gmail.com">
-    <img src="https://img.shields.io/badge/Email-herakotonarivo%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/>
+    <img src="https://img.shields.io/badge/EMAIL-FFFFFF?style=for-the-badge&labelColor=FFFFFF&logo=gmail&logoColor=121212" alt="Email"/>
+  </a>
+  <a href="https://wa.me/261380732115">
+    <img src="https://img.shields.io/badge/WHATSAPP-FFFFFF?style=for-the-badge&labelColor=FFFFFF&logo=whatsapp&logoColor=121212" alt="WhatsApp"/>
   </a>
   <a href="https://www.linkedin.com/in/herakotonarivo/">
-    <img src="https://img.shields.io/badge/LinkedIn-herakotonarivo-0d1117?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LINKEDIN-121212?style=for-the-badge&labelColor=121212&color=121212" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/Hery0019">
-    <img src="https://img.shields.io/badge/GitHub-Hery0019-0d1117?style=for-the-badge&logo=github&logoColor=22d3ee" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GITHUB-121212?style=for-the-badge&labelColor=121212&color=121212&logo=github&logoColor=FFFFFF" alt="GitHub"/>
   </a>
-</div>
+</p>
+
+<sub>Nothing you write to me is shared.</sub>
+
+<img src="assets/rule.svg" width="100%" alt=""/>
 
 <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,60:083344,100:0d1117&height=140&section=footer&text=Thanks%20for%20visiting%20%F0%9F%91%BE&fontSize=28&fontColor=22d3ee&fontAlignY=70&animation=fadeIn" width="100%"/>
-</div>
+<table>
+  <tr>
+    <td><sub>HERY RAKOTONARIVO — SOFTWARE ENGINEER</sub></td>
+    <td align="right"><sub>ANTANANARIVO, MADAGASCAR · <a href="https://imhery.dev">IMHERY.DEV</a></sub></td>
+  </tr>
+</table>
