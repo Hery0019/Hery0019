@@ -16,6 +16,8 @@ R  A  K  O  T  O  N  A  R  I  V  O  ████████
 software engineer · backend & databases · open for freelance
 ```
 
+[![committers.top badge](https://user-badge.committers.top/madagascar_private/Hery0019.svg)](https://user-badge.committers.top/madagascar_private/Hery0019)
+
 </div>
 
 ### `~/about`
@@ -57,8 +59,6 @@ tooling    docker · git · prompt engineering
 ```
 
 ### `~/contributions`
-
-[![committers.top badge](https://user-badge.committers.top/madagascar_private/Hery0019.svg)](https://user-badge.committers.top/madagascar_private/Hery0019)
 
 <!-- The snake is loaded through jsDelivr, pinned to a commit of the output branch, on purpose.
      GitHub proxies external images through camo, whose Fastly backend is not the one behind
