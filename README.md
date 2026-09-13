@@ -28,7 +28,7 @@ R  A  K  O  T  O  N  A  R  I  V  O  ████████
 software engineer · backend & databases · open for freelance
 ```
 
-[![committers.top badge](https://user-badge.committers.top/madagascar_private/Hery0019.svg)](https://user-badge.committers.top/madagascar_private/Hery0019)
+[![committers.top badge](https://user-badge.committers.top/madagascar_private/Hery0019.svg?v=2026-09-13-r61)](https://user-badge.committers.top/madagascar_private/Hery0019)
 
 </div>
 
