@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" role="img" aria-labelledby="title desc">
+  <title id="title">Rotating squares</title>
+  <desc id="desc">Two outlined squares rotating slowly with a small blue square orbiting the outer edge.</desc>
+  <style>
+    :root {
+      --line: #353535;
+      --accent: #c0d9e8;
+    }
+
+    .spin {
+      transform-origin: 110px 110px;
+      animation: spin 90s linear infinite;
+    }
+
+    .spin-back {
+      transform-origin: 110px 110px;
+      animation: spin 60s linear infinite reverse;
+    }
+
+    .lap {
+      animation: lap 12s cubic-bezier(.2, 0, .2, 1) infinite;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(12deg); }
+      to { transform: rotate(372deg); }
+    }
+
+    @keyframes lap {
+      0%, 8% { transform: translate(18px, 18px); }
+      26%, 36% { transform: translate(107px, 18px); }
+      54%, 64% { transform: translate(196px, 18px); }
+      68% { transform: translate(196px, 196px); }
+      88% { transform: translate(18px, 196px); }
+      92%, 100% { transform: translate(18px, 18px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .spin,
+      .spin-back,
+      .lap {
+        animation: none;
+      }
+    }
+  </style>
+
+  <g class="spin">
+    <rect x="20" y="20" width="180" height="180" fill="none" stroke="var(--line)" stroke-width="2"/>
+    <rect class="lap" x="-4" y="-4" width="8" height="8" fill="var(--accent)"/>
+  </g>
+  <g class="spin-back">
+    <rect x="55" y="55" width="110" height="110" fill="none" stroke="var(--line)" stroke-width="2"/>
+  </g>
+</svg>
