@@ -10,6 +10,8 @@
      itself lives at assets/logo.svg in this repo. -->
 <a href="https://imhery.dev"><img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/logo.svg" alt="Hery RAKOTONARIVO" width="220"></a>
 
+<a href="https://imhery.dev"><img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/waving-robot.svg" alt="Waving robot from imhery.dev" width="116"></a>
+
 ```text
 Greetings to each and every one of you
 
