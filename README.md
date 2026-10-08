@@ -9,9 +9,9 @@
      which has no assets/ directory, so a sha-pinned mark would be rewritten into a 404. The file
      itself lives at assets/logo.svg in this repo. -->
 <p>
-  <a href="https://imhery.dev"><img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/orbit-squares.svg" alt="Rotating squares from imhery.dev" width="124" align="center"></a>
-  <a href="https://imhery.dev"><img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/logo.svg" alt="Hery RAKOTONARIVO" width="220" align="center"></a>
-  <a href="https://imhery.dev"><img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/waving-robot.svg" alt="Waving robot from imhery.dev" width="92" align="center"></a>
+  <a href="https://iamhery.dev"><img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/orbit-squares.svg" alt="Rotating squares from iamhery.dev" width="124" align="center"></a>
+  <a href="https://iamhery.dev"><img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/logo.svg" alt="Hery RAKOTONARIVO" width="220" align="center"></a>
+  <a href="https://iamhery.dev"><img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@main/assets/waving-robot.svg" alt="Waving robot from iamhery.dev" width="92" align="center"></a>
 </p>
 
 ```text
@@ -105,4 +105,4 @@ $ open imhery.dev
 [`email`](mailto:herakotonarivo@gmail.com) ·
 [`whatsapp`](https://wa.me/261380732115) ·
 [`linkedin`](https://www.linkedin.com/in/herakotonarivo/) ·
-[`imhery.dev`](https://imhery.dev)
+[`iamhery.dev`](https://iamhery.dev)
