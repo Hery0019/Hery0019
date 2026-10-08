@@ -99,7 +99,7 @@ tooling    docker · git · prompt engineering
 $ mail herakotonarivo@gmail.com
 $ open wa.me/261380732115
 $ open linkedin.com/in/herakotonarivo
-$ open imhery.dev
+$ open iamhery.dev
 ```
 
 [`email`](mailto:herakotonarivo@gmail.com) ·
