@@ -34,6 +34,11 @@ software engineer · backend & databases · open for freelance
 
 [![committers.top badge](https://user-badge.committers.top/madagascar_private/Hery0019.svg?v=2026-09-13-r61)](https://user-badge.committers.top/madagascar_private/Hery0019)
 
+[![Followers](https://img.shields.io/github/followers/Hery0019?style=flat-square&logo=github&label=followers&labelColor=0d1117&color=0891b2)](https://github.com/Hery0019?tab=followers)
+[![Stars](https://img.shields.io/github/stars/Hery0019?affiliations=OWNER&style=flat-square&logo=github&label=stars&labelColor=0d1117&color=0891b2)](https://github.com/Hery0019?tab=repositories&sort=stargazers)
+[![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FHery0019&query=%24.public_repos&style=flat-square&logo=github&label=repos&labelColor=0d1117&color=0891b2)](https://github.com/Hery0019?tab=repositories)
+[![Profile views](https://komarev.com/ghpvc/?username=Hery0019&style=flat-square&label=profile+views&labelColor=0d1117&color=0891b2)](https://github.com/Hery0019)
+
 </div>
 
 ### `~/about`
@@ -73,6 +78,25 @@ data       postgresql · mysql · oracle
 front      react · next.js · typescript · tailwind
 tooling    docker · git · prompt engineering
 ```
+
+### `~/stats`
+
+<p align="center">
+  <a href="https://github.com/Hery0019?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Hery0019&show_icons=true&count_private=true&hide_border=true&theme=github_dark&title_color=22d3ee&icon_color=22d3ee&ring_color=22d3ee"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Hery0019&show_icons=true&count_private=true&hide_border=true&title_color=0891b2&icon_color=0891b2&ring_color=0891b2"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=Hery0019&show_icons=true&count_private=true&hide_border=true&theme=github_dark&title_color=22d3ee&icon_color=22d3ee&ring_color=22d3ee" alt="GitHub stats" height="170"/>
+    </picture>
+  </a>
+  <a href="https://github.com/Hery0019?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Hery0019&layout=compact&langs_count=8&hide_border=true&theme=github_dark&title_color=22d3ee"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Hery0019&layout=compact&langs_count=8&hide_border=true&title_color=0891b2"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hery0019&layout=compact&langs_count=8&hide_border=true&theme=github_dark&title_color=22d3ee" alt="Most used languages" height="170"/>
+    </picture>
+  </a>
+</p>
 
 ### `~/contributions`
 
