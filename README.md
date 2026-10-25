@@ -112,9 +112,9 @@ tooling    docker · git · prompt engineering
      https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake.svg
      and https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@83ba832d6bfbf76f53f2075a28b28783db1a6121/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@83ba832d6bfbf76f53f2075a28b28783db1a6121/github-contribution-grid-snake.svg"/>
-  <img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@83ba832d6bfbf76f53f2075a28b28783db1a6121/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@40b439b96593a1de802f8fe3680e5a5382c47ea3/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@40b439b96593a1de802f8fe3680e5a5382c47ea3/github-contribution-grid-snake.svg"/>
+  <img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@40b439b96593a1de802f8fe3680e5a5382c47ea3/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
 </picture>
 
 ### `~/contact`
