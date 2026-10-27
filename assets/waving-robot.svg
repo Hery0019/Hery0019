@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 150" width="140" height="150" role="img" aria-labelledby="title desc">
   <title id="title">Waving robot</title>
-  <desc id="desc">A small blue robot floating and waving hello.</desc>
+  <desc id="desc">A small latérite robot floating and waving hello.</desc>
   <style>
     :root {
-      --robot: #c0d9e8;
+      --robot: #E25A44;
       --panel: #142832;
       --panel-soft: #243c49;
       --metal: #819caa;

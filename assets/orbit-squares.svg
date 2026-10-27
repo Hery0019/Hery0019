@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-28 -28 276 276" width="276" height="276" role="img" aria-labelledby="title desc">
   <title id="title">Rotating squares</title>
-  <desc id="desc">Two outlined squares rotating slowly with a small blue square orbiting the outer edge.</desc>
+  <desc id="desc">Two outlined squares rotating slowly with a small latérite square orbiting the outer edge.</desc>
   <style>
     :root {
-      --line: #353535;
-      --accent: #c0d9e8;
+      --line: #574D45;
+      --accent: #E25A44;
     }
 
     .spin {
