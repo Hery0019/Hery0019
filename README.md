@@ -1,10 +1,10 @@
 <div align="center">
 
-<!-- The mark is loaded through jsDelivr for the same reason as the snake below: from the
+<!-- The mark is loaded through jsDelivr for the same reason as the Pac-Man below: from the
      Johannesburg POP that serves Madagascar, raw.githubusercontent.com answers 503
      "Backend.max_conn reached" on most of its cache misses, and a relative src="assets/logo.svg"
      resolves to exactly that host, which is why it rendered as a broken image. This URL is pinned
-     to the branch and not to a commit sha on purpose: snake.yml rewrites every
+     to the branch and not to a commit sha on purpose: pacman.yml rewrites every
      cdn.jsdelivr.net/gh/Hery0019/Hery0019@<sha> in this file to the tip of the output branch,
      which has no assets/ directory, so a sha-pinned mark would be rewritten into a 404. The file
      itself lives at assets/logo.svg in this repo. -->
@@ -100,21 +100,21 @@ tooling    docker · git · prompt engineering
 
 ### `~/contributions`
 
-<!-- The snake is loaded through jsDelivr, pinned to a commit of the output branch, on purpose.
+<!-- The Pac-Man is loaded through jsDelivr, pinned to a commit of the output branch, on purpose.
      GitHub proxies external images through camo, whose Fastly backend is not the one behind
      raw.githubusercontent.com: measured from Antananarivo (Fastly Johannesburg POP) on 9 Sept. 2026,
      raw answered 503 "Backend.max_conn reached" on 91-100 % of its cache misses while camo fetched
      the same files 146/146 times at the same seconds. The commit sha below is rewritten by
-     .github/workflows/snake.yml each time the snake changes (one bot commit on main), so every
+     .github/workflows/pacman.yml each time the Pac-Man changes (one bot commit on main), so every
      cache and browser picks up the new drawing at the next page load. Do not edit the sha by hand
      and do not add another URL of the form cdn.jsdelivr.net/gh/Hery0019/Hery0019@<sha> to this file.
      Rollback (works everywhere except through the Johannesburg POP): put back
-     https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake.svg
-     and https://raw.githubusercontent.com/Hery0019/Hery0019/output/github-contribution-grid-snake-dark.svg -->
+     https://raw.githubusercontent.com/Hery0019/Hery0019/output/pacman-contribution-graph.svg
+     and https://raw.githubusercontent.com/Hery0019/Hery0019/output/pacman-contribution-graph-dark.svg -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@baf8237621b5be1094111bcad960f3c426795494/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@baf8237621b5be1094111bcad960f3c426795494/github-contribution-grid-snake.svg"/>
-  <img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@baf8237621b5be1094111bcad960f3c426795494/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@baf8237621b5be1094111bcad960f3c426795494/pacman-contribution-graph-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@baf8237621b5be1094111bcad960f3c426795494/pacman-contribution-graph.svg"/>
+  <img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@baf8237621b5be1094111bcad960f3c426795494/pacman-contribution-graph-dark.svg" alt="Pac-Man contribution graph" width="100%"/>
 </picture>
 
 ### `~/contact`

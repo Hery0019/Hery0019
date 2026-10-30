@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Pac-Man Animation
 
 on:
   schedule:
@@ -15,11 +15,11 @@ permissions:
 # Runs queue up instead of cancelling each other: a cancelled run could leave the output
 # branch ahead of the README; the gate below repairs that, but there is no reason to cause it.
 concurrency:
-  group: snake
+  group: pacman
   cancel-in-progress: false
 
 env:
-  FILES: github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+  FILES: pacman-contribution-graph.svg pacman-contribution-graph-dark.svg
   DIST: dist
 
 defaults:
@@ -37,20 +37,30 @@ jobs:
       # that serves Madagascar: raw failed 91-100 % of its cache misses there while camo fetched the
       # same files 146/146 times at the same seconds, 9 Sept. 2026). A commit-pinned jsDelivr URL is
       # immutable (cached 1 year by jsDelivr, camo and browsers), so a new drawing means a new URL:
-      # this workflow rewrites the sha in the README (one bot commit on main) each time the snake
+      # this workflow rewrites the sha in the README (one bot commit on main) each time the Pac-Man
       # changes. No purge API, no branch-resolution cache, no stale browser copy.
       - name: Check out main
         uses: actions/checkout@v4
 
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+      # Pinned to a commit (v5.3.1 of the library, 30 Oct. 2026): the action runs with a token that
+      # can write to this repo, so @main would hand that to whatever lands on their branch next.
+      # Writes dist/pacman-contribution-graph.svg and dist/pacman-contribution-graph-dark.svg.
+      - name: Generate Pac-Man SVGs
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=cyan
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=cyan
+          games: pacman
 
-      # A broken SVG would otherwise be pinned for a year by every cache; the old snake stays up instead.
+      # Each SVG embeds its generation date (<desc> and <generatedOn>). Left in, every run would look
+      # "changed" to the gate below and cost two bot commits a day for nothing.
+      - name: Strip generation timestamps
+        run: |
+          set -euo pipefail
+          for f in $FILES; do
+            sed -i -E 's#<desc>Generated with [^<]*</desc>##; s#<generatedOn>[^<]*</generatedOn>##' "$DIST/$f"
+          done
+
+      # A broken SVG would otherwise be pinned for a year by every cache; the old Pac-Man stays up instead.
       - name: Refuse a degenerate SVG
         run: |
           set -euo pipefail
@@ -58,8 +68,8 @@ jobs:
             p="$DIST/$f"
             size=$(stat -c %s "$p")
             rects=$(grep -o '<rect' "$p" | wc -l)
-            if [ "$size" -lt 20000 ] || [ "$rects" -lt 300 ] || ! grep -q '<style' "$p" || ! tail -c 20 "$p" | grep -q '</svg>'; then
-              echo "::error::$f looks broken ($size bytes, $rects <rect>, <style>/</svg> check) - nothing pushed, the old snake stays up"
+            if [ "$size" -lt 20000 ] || [ "$rects" -lt 300 ] || ! grep -q '<animate' "$p" || ! tail -c 20 "$p" | grep -q '</svg>'; then
+              echo "::error::$f looks broken ($size bytes, $rects <rect>, <animate>/</svg> check) - nothing pushed, the old Pac-Man stays up"
               exit 1
             fi
             echo "$f: $size bytes, $rects <rect>, sha256 $(sha256sum "$p" | cut -c1-12)"
@@ -67,8 +77,8 @@ jobs:
 
       # The README is the source of truth: compare with the commit it references, not with the
       # output branch. A run that pushed output but never rewrote the README is redone next time
-      # instead of being mistaken for "unchanged". Unchanged snake = no commit anywhere.
-      - name: Did the snake change since the version the README points at?
+      # instead of being mistaken for "unchanged". Unchanged Pac-Man = no commit anywhere.
+      - name: Did the Pac-Man change since the version the README points at?
         id: gate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -99,7 +109,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Point the README at the new snake
+      - name: Point the README at the new Pac-Man
         if: steps.gate.outputs.changed == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -165,7 +175,7 @@ jobs:
               fi
               exit 0
             fi
-            git commit -q -am "Point the snake at output@${sha:0:7} [skip ci]"
+            git commit -q -am "Point the Pac-Man at output@${sha:0:7} [skip ci]"
             if git push -q origin HEAD:main; then
               echo "README now points at $sha"
               # 4) Confirm GitHub proxies the new URLs (both <source srcset> and <img src>).
@@ -173,7 +183,7 @@ jobs:
               n=$(curl -fsS --max-time 30 -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github.html+json" \
                     "https://api.github.com/repos/$GITHUB_REPOSITORY/readme" \
                   | grep -o 'https://camo.githubusercontent.com/[0-9a-f]*/[0-9a-f]*' | grep -c "$hex")
-              [ "${n:-0}" -ge 2 ] && echo "rendered README loads the snake through camo ($n URLs)" \
+              [ "${n:-0}" -ge 2 ] && echo "rendered README loads the Pac-Man through camo ($n URLs)" \
                 || echo "::warning::rendered README shows ${n:-0} camo URL(s) for the new sha (expected 2 or more)"
               exit 0
             fi
