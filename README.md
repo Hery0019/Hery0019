@@ -112,9 +112,9 @@ tooling    docker · git · prompt engineering
      https://raw.githubusercontent.com/Hery0019/Hery0019/output/pacman-contribution-graph.svg
      and https://raw.githubusercontent.com/Hery0019/Hery0019/output/pacman-contribution-graph-dark.svg -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@3f31b6af0ab8d4405a98316b640916a6fa53dea2/pacman-contribution-graph-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@3f31b6af0ab8d4405a98316b640916a6fa53dea2/pacman-contribution-graph.svg"/>
-  <img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@3f31b6af0ab8d4405a98316b640916a6fa53dea2/pacman-contribution-graph-dark.svg" alt="Pac-Man contribution graph" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@b2c792bd7fc2e7cc024e4212fdaeb9ef832fa77e/pacman-contribution-graph-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@b2c792bd7fc2e7cc024e4212fdaeb9ef832fa77e/pacman-contribution-graph.svg"/>
+  <img src="https://cdn.jsdelivr.net/gh/Hery0019/Hery0019@b2c792bd7fc2e7cc024e4212fdaeb9ef832fa77e/pacman-contribution-graph-dark.svg" alt="Pac-Man contribution graph" width="100%"/>
 </picture>
 
 ### `~/contact`
